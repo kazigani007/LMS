@@ -145,7 +145,7 @@ Partial Class Frm_Reader
         '
         'Bttn_Save
         '
-        Me.Bttn_Save.BackColor = System.Drawing.Color.LightCoral
+        Me.Bttn_Save.BackColor = System.Drawing.Color.Linen
         Me.Bttn_Save.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Bttn_Save.ForeColor = System.Drawing.Color.Black
         Me.Bttn_Save.Location = New System.Drawing.Point(168, 195)
@@ -159,7 +159,7 @@ Partial Class Frm_Reader
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.IndianRed
+        Me.BackColor = System.Drawing.Color.Bisque
         Me.ClientSize = New System.Drawing.Size(417, 234)
         Me.Controls.Add(Me.Bttn_Save)
         Me.Controls.Add(Me.Cb_TYP)

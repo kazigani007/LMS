@@ -42,7 +42,7 @@ Partial Class Frm_Login
         'Lbl_UserName
         '
         Me.Lbl_UserName.AutoSize = True
-        Me.Lbl_UserName.BackColor = System.Drawing.Color.IndianRed
+        Me.Lbl_UserName.BackColor = System.Drawing.Color.Bisque
         Me.Lbl_UserName.Font = New System.Drawing.Font("Century", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Lbl_UserName.ForeColor = System.Drawing.Color.Black
         Me.Lbl_UserName.Location = New System.Drawing.Point(181, 141)
@@ -73,7 +73,7 @@ Partial Class Frm_Login
         'Lbl_Pass
         '
         Me.Lbl_Pass.AutoSize = True
-        Me.Lbl_Pass.BackColor = System.Drawing.Color.IndianRed
+        Me.Lbl_Pass.BackColor = System.Drawing.Color.Bisque
         Me.Lbl_Pass.Font = New System.Drawing.Font("Century", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Lbl_Pass.ForeColor = System.Drawing.Color.Black
         Me.Lbl_Pass.Location = New System.Drawing.Point(181, 179)
@@ -84,7 +84,7 @@ Partial Class Frm_Login
         '
         'Bttn_Login
         '
-        Me.Bttn_Login.BackColor = System.Drawing.Color.IndianRed
+        Me.Bttn_Login.BackColor = System.Drawing.Color.Bisque
         Me.Bttn_Login.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Bttn_Login.ForeColor = System.Drawing.Color.Black
         Me.Bttn_Login.Location = New System.Drawing.Point(520, 219)
@@ -100,7 +100,7 @@ Partial Class Frm_Login
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.IndianRed
+        Me.Panel1.BackColor = System.Drawing.Color.Bisque
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Controls.Add(Me.Label1)
@@ -123,7 +123,7 @@ Partial Class Frm_Login
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.Salmon
+        Me.Label2.BackColor = System.Drawing.Color.Bisque
         Me.Label2.Font = New System.Drawing.Font("Lucida Bright", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Black
         Me.Label2.Location = New System.Drawing.Point(263, 69)
@@ -135,7 +135,7 @@ Partial Class Frm_Login
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.LightCoral
+        Me.Label1.BackColor = System.Drawing.Color.Bisque
         Me.Label1.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Black
         Me.Label1.Location = New System.Drawing.Point(171, 29)
@@ -148,7 +148,7 @@ Partial Class Frm_Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.LightCoral
+        Me.BackColor = System.Drawing.Color.Linen
         Me.ClientSize = New System.Drawing.Size(634, 261)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Bttn_Login)

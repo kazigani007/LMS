@@ -102,7 +102,7 @@ Partial Class Frm_Main
         '
         'Tp_BrrwBooks
         '
-        Me.Tp_BrrwBooks.BackColor = System.Drawing.Color.IndianRed
+        Me.Tp_BrrwBooks.BackColor = System.Drawing.Color.Bisque
         Me.Tp_BrrwBooks.Controls.Add(Me.BtnOK_DueDate)
         Me.Tp_BrrwBooks.Controls.Add(Me.Label7)
         Me.Tp_BrrwBooks.Controls.Add(Me.DateTimeDueDate)
@@ -120,7 +120,7 @@ Partial Class Frm_Main
         '
         'BtnOK_DueDate
         '
-        Me.BtnOK_DueDate.BackColor = System.Drawing.Color.LightCoral
+        Me.BtnOK_DueDate.BackColor = System.Drawing.Color.Linen
         Me.BtnOK_DueDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnOK_DueDate.ForeColor = System.Drawing.Color.Black
         Me.BtnOK_DueDate.Location = New System.Drawing.Point(345, 286)
@@ -133,7 +133,7 @@ Partial Class Frm_Main
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.BackColor = System.Drawing.Color.LightCoral
+        Me.Label7.BackColor = System.Drawing.Color.Linen
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.Black
         Me.Label7.Location = New System.Drawing.Point(22, 290)
@@ -153,7 +153,7 @@ Partial Class Frm_Main
         '
         'Bttn_Borrw
         '
-        Me.Bttn_Borrw.BackColor = System.Drawing.Color.LightCoral
+        Me.Bttn_Borrw.BackColor = System.Drawing.Color.Linen
         Me.Bttn_Borrw.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Bttn_Borrw.ForeColor = System.Drawing.Color.Black
         Me.Bttn_Borrw.Location = New System.Drawing.Point(556, 242)
@@ -165,7 +165,7 @@ Partial Class Frm_Main
         '
         'Gb_SrchReaders
         '
-        Me.Gb_SrchReaders.BackColor = System.Drawing.Color.LightCoral
+        Me.Gb_SrchReaders.BackColor = System.Drawing.Color.Linen
         Me.Gb_SrchReaders.Controls.Add(Me.Bttn_AdvncSrch1)
         Me.Gb_SrchReaders.Controls.Add(Me.Tb_Type)
         Me.Gb_SrchReaders.Controls.Add(Me.Tb_Name)
@@ -184,7 +184,7 @@ Partial Class Frm_Main
         '
         'Bttn_AdvncSrch1
         '
-        Me.Bttn_AdvncSrch1.BackColor = System.Drawing.Color.LightCoral
+        Me.Bttn_AdvncSrch1.BackColor = System.Drawing.Color.Linen
         Me.Bttn_AdvncSrch1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Bttn_AdvncSrch1.ForeColor = System.Drawing.Color.Black
         Me.Bttn_AdvncSrch1.Location = New System.Drawing.Point(24, 83)
@@ -213,7 +213,7 @@ Partial Class Frm_Main
         'Lbl_Type
         '
         Me.Lbl_Type.AutoSize = True
-        Me.Lbl_Type.BackColor = System.Drawing.Color.LightCoral
+        Me.Lbl_Type.BackColor = System.Drawing.Color.Linen
         Me.Lbl_Type.ForeColor = System.Drawing.Color.Black
         Me.Lbl_Type.Location = New System.Drawing.Point(218, 79)
         Me.Lbl_Type.Name = "Lbl_Type"
@@ -224,7 +224,7 @@ Partial Class Frm_Main
         'Lbl_Nme
         '
         Me.Lbl_Nme.AutoSize = True
-        Me.Lbl_Nme.BackColor = System.Drawing.Color.LightCoral
+        Me.Lbl_Nme.BackColor = System.Drawing.Color.Linen
         Me.Lbl_Nme.ForeColor = System.Drawing.Color.Black
         Me.Lbl_Nme.Location = New System.Drawing.Point(218, 36)
         Me.Lbl_Nme.Name = "Lbl_Nme"
@@ -243,7 +243,7 @@ Partial Class Frm_Main
         'Lbl_SrchR
         '
         Me.Lbl_SrchR.AutoSize = True
-        Me.Lbl_SrchR.BackColor = System.Drawing.Color.LightCoral
+        Me.Lbl_SrchR.BackColor = System.Drawing.Color.Linen
         Me.Lbl_SrchR.ForeColor = System.Drawing.Color.Black
         Me.Lbl_SrchR.Location = New System.Drawing.Point(21, 36)
         Me.Lbl_SrchR.Name = "Lbl_SrchR"
@@ -254,7 +254,7 @@ Partial Class Frm_Main
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.LightCoral
+        Me.Label3.BackColor = System.Drawing.Color.Linen
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Black
         Me.Label3.Location = New System.Drawing.Point(19, 319)
@@ -283,7 +283,7 @@ Partial Class Frm_Main
         '
         'Gb_SrchBooks
         '
-        Me.Gb_SrchBooks.BackColor = System.Drawing.Color.LightCoral
+        Me.Gb_SrchBooks.BackColor = System.Drawing.Color.Linen
         Me.Gb_SrchBooks.Controls.Add(Me.Bttn_AdvncSrch2)
         Me.Gb_SrchBooks.Controls.Add(Me.Tb_Avail)
         Me.Gb_SrchBooks.Controls.Add(Me.Lbl_Avail)
@@ -304,7 +304,7 @@ Partial Class Frm_Main
         '
         'Bttn_AdvncSrch2
         '
-        Me.Bttn_AdvncSrch2.BackColor = System.Drawing.Color.LightCoral
+        Me.Bttn_AdvncSrch2.BackColor = System.Drawing.Color.Linen
         Me.Bttn_AdvncSrch2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Bttn_AdvncSrch2.ForeColor = System.Drawing.Color.Black
         Me.Bttn_AdvncSrch2.Location = New System.Drawing.Point(23, 95)
@@ -325,7 +325,7 @@ Partial Class Frm_Main
         'Lbl_Avail
         '
         Me.Lbl_Avail.AutoSize = True
-        Me.Lbl_Avail.BackColor = System.Drawing.Color.LightCoral
+        Me.Lbl_Avail.BackColor = System.Drawing.Color.Linen
         Me.Lbl_Avail.ForeColor = System.Drawing.Color.Black
         Me.Lbl_Avail.Location = New System.Drawing.Point(218, 105)
         Me.Lbl_Avail.Name = "Lbl_Avail"
@@ -360,7 +360,7 @@ Partial Class Frm_Main
         'Lbl_Pub
         '
         Me.Lbl_Pub.AutoSize = True
-        Me.Lbl_Pub.BackColor = System.Drawing.Color.LightCoral
+        Me.Lbl_Pub.BackColor = System.Drawing.Color.Linen
         Me.Lbl_Pub.ForeColor = System.Drawing.Color.Black
         Me.Lbl_Pub.Location = New System.Drawing.Point(218, 58)
         Me.Lbl_Pub.Name = "Lbl_Pub"
@@ -371,7 +371,7 @@ Partial Class Frm_Main
         'Lbl_SrcA
         '
         Me.Lbl_SrcA.AutoSize = True
-        Me.Lbl_SrcA.BackColor = System.Drawing.Color.LightCoral
+        Me.Lbl_SrcA.BackColor = System.Drawing.Color.Linen
         Me.Lbl_SrcA.ForeColor = System.Drawing.Color.Black
         Me.Lbl_SrcA.Location = New System.Drawing.Point(20, 40)
         Me.Lbl_SrcA.Name = "Lbl_SrcA"
@@ -382,7 +382,7 @@ Partial Class Frm_Main
         'Lbl_Title
         '
         Me.Lbl_Title.AutoSize = True
-        Me.Lbl_Title.BackColor = System.Drawing.Color.LightCoral
+        Me.Lbl_Title.BackColor = System.Drawing.Color.Linen
         Me.Lbl_Title.ForeColor = System.Drawing.Color.Black
         Me.Lbl_Title.Location = New System.Drawing.Point(218, 18)
         Me.Lbl_Title.Name = "Lbl_Title"
@@ -392,7 +392,7 @@ Partial Class Frm_Main
         '
         'Tp_BrrwHistory
         '
-        Me.Tp_BrrwHistory.BackColor = System.Drawing.Color.IndianRed
+        Me.Tp_BrrwHistory.BackColor = System.Drawing.Color.Linen
         Me.Tp_BrrwHistory.Controls.Add(Me.Dgv_Transactions)
         Me.Tp_BrrwHistory.Location = New System.Drawing.Point(4, 22)
         Me.Tp_BrrwHistory.Name = "Tp_BrrwHistory"
@@ -423,7 +423,7 @@ Partial Class Frm_Main
         '
         'Tp_RtrnBook
         '
-        Me.Tp_RtrnBook.BackColor = System.Drawing.Color.IndianRed
+        Me.Tp_RtrnBook.BackColor = System.Drawing.Color.Linen
         Me.Tp_RtrnBook.Controls.Add(Me.Label4)
         Me.Tp_RtrnBook.Controls.Add(Me.Dgv_BrrwdBooks)
         Me.Tp_RtrnBook.Controls.Add(Me.Gb_SrchReaderss)
@@ -437,7 +437,7 @@ Partial Class Frm_Main
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.LightCoral
+        Me.Label4.BackColor = System.Drawing.Color.Bisque
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Black
         Me.Label4.Location = New System.Drawing.Point(22, 227)
@@ -453,6 +453,7 @@ Partial Class Frm_Main
         Me.Dgv_BrrwdBooks.AllowUserToResizeColumns = False
         Me.Dgv_BrrwdBooks.AllowUserToResizeRows = False
         Me.Dgv_BrrwdBooks.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        Me.Dgv_BrrwdBooks.BackgroundColor = System.Drawing.Color.Bisque
         Me.Dgv_BrrwdBooks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
         Me.Dgv_BrrwdBooks.Location = New System.Drawing.Point(25, 243)
         Me.Dgv_BrrwdBooks.MultiSelect = False
@@ -466,7 +467,7 @@ Partial Class Frm_Main
         '
         'Gb_SrchReaderss
         '
-        Me.Gb_SrchReaderss.BackColor = System.Drawing.Color.IndianRed
+        Me.Gb_SrchReaderss.BackColor = System.Drawing.Color.Linen
         Me.Gb_SrchReaderss.Controls.Add(Me.Tb_RderID)
         Me.Gb_SrchReaderss.Controls.Add(Me.Label6)
         Me.Gb_SrchReaderss.Controls.Add(Me.Tb_Pnlty)
@@ -592,7 +593,7 @@ Partial Class Frm_Main
         '
         'Tsp_MainMenu
         '
-        Me.Tsp_MainMenu.BackColor = System.Drawing.Color.LightCoral
+        Me.Tsp_MainMenu.BackColor = System.Drawing.Color.Linen
         Me.ErrPrvder.SetIconAlignment(Me.Tsp_MainMenu, System.Windows.Forms.ErrorIconAlignment.MiddleLeft)
         Me.Tsp_MainMenu.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.Tsp_MainMenu.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TspB_MngBook, Me.TspB_MngReader, Me.TspB_MngUser, Me.TSB_GenerateReport, Me.TspB_Logout, Me.TspB_Exit})
@@ -664,7 +665,7 @@ Partial Class Frm_Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.IndianRed
+        Me.BackColor = System.Drawing.Color.Bisque
         Me.ClientSize = New System.Drawing.Size(664, 549)
         Me.ControlBox = False
         Me.Controls.Add(Me.Tsp_MainMenu)

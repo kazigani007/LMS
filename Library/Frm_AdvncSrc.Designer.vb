@@ -50,7 +50,7 @@ Partial Class Frm_AdvncSrc
         'Lbl_Srch
         '
         Me.Lbl_Srch.AutoSize = True
-        Me.Lbl_Srch.BackColor = System.Drawing.Color.LightCoral
+        Me.Lbl_Srch.BackColor = System.Drawing.Color.Linen
         Me.Lbl_Srch.ForeColor = System.Drawing.Color.Black
         Me.Lbl_Srch.Location = New System.Drawing.Point(18, 15)
         Me.Lbl_Srch.Name = "Lbl_Srch"
@@ -67,7 +67,7 @@ Partial Class Frm_AdvncSrc
         '
         'Bttn_Slct
         '
-        Me.Bttn_Slct.BackColor = System.Drawing.Color.LightCoral
+        Me.Bttn_Slct.BackColor = System.Drawing.Color.Linen
         Me.Bttn_Slct.ForeColor = System.Drawing.Color.DarkGreen
         Me.Bttn_Slct.Location = New System.Drawing.Point(508, 10)
         Me.Bttn_Slct.Name = "Bttn_Slct"
@@ -80,7 +80,7 @@ Partial Class Frm_AdvncSrc
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.IndianRed
+        Me.BackColor = System.Drawing.Color.Bisque
         Me.ClientSize = New System.Drawing.Size(604, 436)
         Me.Controls.Add(Me.Bttn_Slct)
         Me.Controls.Add(Me.Tb_Srch)

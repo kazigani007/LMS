@@ -97,7 +97,7 @@ Partial Class Frm_MngReader
         '
         'Tstp_ADES
         '
-        Me.Tstp_ADES.BackColor = System.Drawing.Color.Tomato
+        Me.Tstp_ADES.BackColor = System.Drawing.Color.Linen
         Me.Tstp_ADES.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.Tstp_ADES.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.Tstp_ADES.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Tsb_Add, Me.Tsb_Edit, Me.Tsb_Delete, Me.Tsl_Srch, Me.TsTb_Srch})
@@ -111,7 +111,7 @@ Partial Class Frm_MngReader
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.IndianRed
+        Me.BackColor = System.Drawing.Color.Bisque
         Me.ClientSize = New System.Drawing.Size(586, 431)
         Me.Controls.Add(Me.Tstp_ADES)
         Me.Controls.Add(Me.Dgv_Stdnts)

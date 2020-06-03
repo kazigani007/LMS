@@ -73,7 +73,7 @@ Partial Class Frm_MngBooks
         'Lbl_BC
         '
         Me.Lbl_BC.AutoSize = True
-        Me.Lbl_BC.BackColor = System.Drawing.Color.IndianRed
+        Me.Lbl_BC.BackColor = System.Drawing.Color.Bisque
         Me.Lbl_BC.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Lbl_BC.ForeColor = System.Drawing.Color.Black
         Me.Lbl_BC.Location = New System.Drawing.Point(23, 11)
@@ -101,7 +101,7 @@ Partial Class Frm_MngBooks
         'Lbl_Ttl
         '
         Me.Lbl_Ttl.AutoSize = True
-        Me.Lbl_Ttl.BackColor = System.Drawing.Color.IndianRed
+        Me.Lbl_Ttl.BackColor = System.Drawing.Color.Bisque
         Me.Lbl_Ttl.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Lbl_Ttl.ForeColor = System.Drawing.Color.Black
         Me.Lbl_Ttl.Location = New System.Drawing.Point(23, 63)
@@ -121,7 +121,7 @@ Partial Class Frm_MngBooks
         'Lbl_Pb
         '
         Me.Lbl_Pb.AutoSize = True
-        Me.Lbl_Pb.BackColor = System.Drawing.Color.IndianRed
+        Me.Lbl_Pb.BackColor = System.Drawing.Color.Bisque
         Me.Lbl_Pb.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Lbl_Pb.ForeColor = System.Drawing.Color.Black
         Me.Lbl_Pb.Location = New System.Drawing.Point(23, 122)
@@ -133,7 +133,7 @@ Partial Class Frm_MngBooks
         'Lbl_Auth
         '
         Me.Lbl_Auth.AutoSize = True
-        Me.Lbl_Auth.BackColor = System.Drawing.Color.IndianRed
+        Me.Lbl_Auth.BackColor = System.Drawing.Color.Bisque
         Me.Lbl_Auth.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Lbl_Auth.ForeColor = System.Drawing.Color.Black
         Me.Lbl_Auth.Location = New System.Drawing.Point(309, 12)
@@ -146,7 +146,7 @@ Partial Class Frm_MngBooks
         '
         Me.Link_Auth.ActiveLinkColor = System.Drawing.Color.Black
         Me.Link_Auth.AutoSize = True
-        Me.Link_Auth.BackColor = System.Drawing.Color.IndianRed
+        Me.Link_Auth.BackColor = System.Drawing.Color.Bisque
         Me.Link_Auth.Enabled = False
         Me.Link_Auth.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Link_Auth.ForeColor = System.Drawing.Color.Black
@@ -169,7 +169,7 @@ Partial Class Frm_MngBooks
         '
         'Bttn_Cncl
         '
-        Me.Bttn_Cncl.BackColor = System.Drawing.Color.IndianRed
+        Me.Bttn_Cncl.BackColor = System.Drawing.Color.Bisque
         Me.Bttn_Cncl.Enabled = False
         Me.Bttn_Cncl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Bttn_Cncl.ForeColor = System.Drawing.Color.Black
@@ -182,7 +182,7 @@ Partial Class Frm_MngBooks
         '
         'Bttn_Dlt
         '
-        Me.Bttn_Dlt.BackColor = System.Drawing.Color.IndianRed
+        Me.Bttn_Dlt.BackColor = System.Drawing.Color.Bisque
         Me.Bttn_Dlt.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Bttn_Dlt.ForeColor = System.Drawing.Color.Black
         Me.Bttn_Dlt.Location = New System.Drawing.Point(578, 88)
@@ -194,7 +194,7 @@ Partial Class Frm_MngBooks
         '
         'Bttn_Edt
         '
-        Me.Bttn_Edt.BackColor = System.Drawing.Color.IndianRed
+        Me.Bttn_Edt.BackColor = System.Drawing.Color.Bisque
         Me.Bttn_Edt.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Bttn_Edt.ForeColor = System.Drawing.Color.Black
         Me.Bttn_Edt.Location = New System.Drawing.Point(705, 33)
@@ -206,7 +206,7 @@ Partial Class Frm_MngBooks
         '
         'Bttn_Add
         '
-        Me.Bttn_Add.BackColor = System.Drawing.Color.IndianRed
+        Me.Bttn_Add.BackColor = System.Drawing.Color.Bisque
         Me.Bttn_Add.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Bttn_Add.ForeColor = System.Drawing.Color.Black
         Me.Bttn_Add.Location = New System.Drawing.Point(578, 33)
@@ -219,7 +219,7 @@ Partial Class Frm_MngBooks
         'Lbb_BCopies
         '
         Me.Lbb_BCopies.AutoSize = True
-        Me.Lbb_BCopies.BackColor = System.Drawing.Color.LightCoral
+        Me.Lbb_BCopies.BackColor = System.Drawing.Color.Bisque
         Me.Lbb_BCopies.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Lbb_BCopies.ForeColor = System.Drawing.Color.Black
         Me.Lbb_BCopies.Location = New System.Drawing.Point(520, 203)
@@ -230,7 +230,7 @@ Partial Class Frm_MngBooks
         '
         'Bttn_AddCop
         '
-        Me.Bttn_AddCop.BackColor = System.Drawing.Color.IndianRed
+        Me.Bttn_AddCop.BackColor = System.Drawing.Color.Bisque
         Me.Bttn_AddCop.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Bttn_AddCop.ForeColor = System.Drawing.Color.Black
         Me.Bttn_AddCop.Location = New System.Drawing.Point(578, 143)
@@ -279,7 +279,7 @@ Partial Class Frm_MngBooks
         '
         'Bttn_DltCop
         '
-        Me.Bttn_DltCop.BackColor = System.Drawing.Color.IndianRed
+        Me.Bttn_DltCop.BackColor = System.Drawing.Color.Bisque
         Me.Bttn_DltCop.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Bttn_DltCop.ForeColor = System.Drawing.Color.Black
         Me.Bttn_DltCop.Location = New System.Drawing.Point(708, 143)
@@ -292,7 +292,7 @@ Partial Class Frm_MngBooks
         'Lbl_Book
         '
         Me.Lbl_Book.AutoSize = True
-        Me.Lbl_Book.BackColor = System.Drawing.Color.LightCoral
+        Me.Lbl_Book.BackColor = System.Drawing.Color.Bisque
         Me.Lbl_Book.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Lbl_Book.ForeColor = System.Drawing.Color.Black
         Me.Lbl_Book.Location = New System.Drawing.Point(24, 203)
@@ -311,7 +311,7 @@ Partial Class Frm_MngBooks
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.LightCoral
+        Me.Label1.BackColor = System.Drawing.Color.Bisque
         Me.Label1.ForeColor = System.Drawing.Color.Black
         Me.Label1.Location = New System.Drawing.Point(235, 212)
         Me.Label1.Name = "Label1"
@@ -322,7 +322,7 @@ Partial Class Frm_MngBooks
         'Lbl_DtPb
         '
         Me.Lbl_DtPb.AutoSize = True
-        Me.Lbl_DtPb.BackColor = System.Drawing.Color.IndianRed
+        Me.Lbl_DtPb.BackColor = System.Drawing.Color.Bisque
         Me.Lbl_DtPb.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Lbl_DtPb.ForeColor = System.Drawing.Color.Black
         Me.Lbl_DtPb.Location = New System.Drawing.Point(309, 122)
@@ -333,7 +333,7 @@ Partial Class Frm_MngBooks
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.LightCoral
+        Me.Panel1.BackColor = System.Drawing.Color.Linen
         Me.Panel1.Controls.Add(Me.Lbl_DtPb)
         Me.Panel1.Controls.Add(Me.Link_Auth)
         Me.Panel1.Controls.Add(Me.Lbl_BC)
@@ -350,7 +350,7 @@ Partial Class Frm_MngBooks
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.IndianRed
+        Me.BackColor = System.Drawing.Color.Bisque
         Me.ClientSize = New System.Drawing.Size(824, 588)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Tb_Srch)
