@@ -1,0 +1,273 @@
+C:\Users\ISLA\AppData\Local\Temporary Projects\Library\bin\Debug\Library.exe
+C:\Users\ISLA\AppData\Local\Temporary Projects\Library\bin\Debug\Library.pdb
+C:\Users\ISLA\AppData\Local\Temporary Projects\Library\bin\Debug\Library.xml
+C:\Users\ISLA\AppData\Local\Temporary Projects\Library\obj\x86\Debug\Library.Frm_MngBooks.resources
+C:\Users\ISLA\AppData\Local\Temporary Projects\Library\obj\x86\Debug\Library.Resources.resources
+C:\Users\ISLA\AppData\Local\Temporary Projects\Library\obj\x86\Debug\Library.vbproj.GenerateResource.Cache
+C:\Users\ISLA\AppData\Local\Temporary Projects\Library\obj\x86\Debug\Library.exe
+C:\Users\ISLA\AppData\Local\Temporary Projects\Library\obj\x86\Debug\Library.xml
+C:\Users\ISLA\AppData\Local\Temporary Projects\Library\obj\x86\Debug\Library.pdb
+C:\Users\ISLA\AppData\Local\Temporary Projects\Library\obj\x86\Debug\Library.Frm_MngAuth.resources
+C:\Users\ISLA\Desktop\Library\Library\obj\x86\Debug\Library.exe
+C:\Users\ISLA\Desktop\Library\Library\obj\x86\Debug\Library.xml
+C:\Users\ISLA\Desktop\Library\Library\obj\x86\Debug\Library.pdb
+C:\Users\ISLA\Desktop\Library\Library\bin\Debug\Library.exe
+C:\Users\ISLA\Desktop\Library\Library\bin\Debug\Library.pdb
+C:\Users\ISLA\Desktop\Library\Library\bin\Debug\Library.xml
+C:\Users\ISLA\Desktop\Library\Library\obj\x86\Debug\Library.Frm_MngAuth.resources
+C:\Users\ISLA\Desktop\Library\Library\obj\x86\Debug\Library.Frm_MngBooks.resources
+C:\Users\ISLA\Desktop\Library\Library\obj\x86\Debug\Library.Resources.resources
+C:\Users\ISLA\Desktop\Library\Library\obj\x86\Debug\Library.vbproj.GenerateResource.Cache
+F:\Library\Library\obj\x86\Debug\Library.exe
+F:\Library\Library\obj\x86\Debug\Library.xml
+F:\Library\Library\obj\x86\Debug\Library.pdb
+H:\Library\Library\obj\x86\Debug\Library.exe
+H:\Library\Library\obj\x86\Debug\Library.xml
+H:\Library\Library\obj\x86\Debug\Library.pdb
+H:\Library\Library\bin\Debug\Library.exe
+H:\Library\Library\bin\Debug\Library.pdb
+H:\Library\Library\bin\Debug\Library.xml
+H:\Library\Library\obj\x86\Debug\Library.Frm_MngAuth.resources
+H:\Library\Library\obj\x86\Debug\Library.Frm_MngBooks.resources
+H:\Library\Library\obj\x86\Debug\Library.Resources.resources
+H:\Library\Library\obj\x86\Debug\Library.vbproj.GenerateResource.Cache
+H:\Library\Library\obj\x86\Debug\Library.Frm_AddCopies.resources
+H:\Library\Library\obj\x86\Debug\Library.Frm_Main.resources
+H:\Library\Library\obj\x86\Debug\Library.Frm_MngReader.resources
+H:\Library\Library\obj\x86\Debug\Library.Frm_Reader.resources
+H:\Library\Library\obj\x86\Debug\Library.Frm_Login.resources
+H:\Library\Library\obj\x86\Debug\Library.Frm_AdvncSrc.resources
+H:\Library\Library\obj\x86\Debug\Library.Frm_Usr.resources
+E:\Library\Library\obj\x86\Debug\Library.exe
+E:\Library\Library\obj\x86\Debug\Library.xml
+E:\Library\Library\obj\x86\Debug\Library.pdb
+E:\Library\Library\obj\x86\Debug\Library.Frm_AddCopies.resources
+E:\Library\Library\obj\x86\Debug\Library.Frm_AdvncSrc.resources
+E:\Library\Library\obj\x86\Debug\Library.Frm_Login.resources
+E:\Library\Library\obj\x86\Debug\Library.Frm_Main.resources
+E:\Library\Library\obj\x86\Debug\Library.Frm_MngAuth.resources
+E:\Library\Library\obj\x86\Debug\Library.Frm_MngBooks.resources
+E:\Library\Library\obj\x86\Debug\Library.Frm_MngReader.resources
+E:\Library\Library\obj\x86\Debug\Library.Frm_Reader.resources
+E:\Library\Library\obj\x86\Debug\Library.Frm_Usr.resources
+E:\Library\Library\obj\x86\Debug\Library.Resources.resources
+E:\Library\Library\obj\x86\Debug\Library.vbproj.GenerateResource.Cache
+E:\Library\Library\bin\Debug\Library.exe
+E:\Library\Library\bin\Debug\Library.pdb
+E:\Library\Library\bin\Debug\Library.xml
+F:\Library\Library\bin\Debug\Library.exe
+F:\Library\Library\bin\Debug\Library.pdb
+F:\Library\Library\bin\Debug\Library.xml
+F:\Library\Library\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Library\Library\obj\x86\Debug\Library.Frm_AddCopies.resources
+F:\Library\Library\obj\x86\Debug\Library.Frm_AdvncSrc.resources
+F:\Library\Library\obj\x86\Debug\Library.Frm_Login.resources
+F:\Library\Library\obj\x86\Debug\Library.Frm_Main.resources
+F:\Library\Library\obj\x86\Debug\Library.Frm_MngAuth.resources
+F:\Library\Library\obj\x86\Debug\Library.Frm_MngBooks.resources
+F:\Library\Library\obj\x86\Debug\Library.Frm_MngReader.resources
+F:\Library\Library\obj\x86\Debug\Library.Frm_Reader.resources
+F:\Library\Library\obj\x86\Debug\Library.Frm_Usr.resources
+F:\Library\Library\obj\x86\Debug\Library.Resources.resources
+F:\Library\Library\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Library\Library\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\xiennajane\Desktop\Library\Library\obj\x86\Debug\Library.exe
+C:\Users\xiennajane\Desktop\Library\Library\obj\x86\Debug\Library.xml
+C:\Users\xiennajane\Desktop\Library\Library\obj\x86\Debug\Library.pdb
+C:\Users\xiennajane\Desktop\Library\Library\bin\Debug\Library.exe
+C:\Users\xiennajane\Desktop\Library\Library\bin\Debug\Library.pdb
+C:\Users\xiennajane\Desktop\Library\Library\bin\Debug\Library.xml
+C:\Users\xiennajane\Desktop\Library\Library\obj\x86\Debug\Library.Frm_AddCopies.resources
+C:\Users\xiennajane\Desktop\Library\Library\obj\x86\Debug\Library.Frm_AdvncSrc.resources
+C:\Users\xiennajane\Desktop\Library\Library\obj\x86\Debug\Library.Frm_Login.resources
+C:\Users\xiennajane\Desktop\Library\Library\obj\x86\Debug\Library.Frm_Main.resources
+C:\Users\xiennajane\Desktop\Library\Library\obj\x86\Debug\Library.Frm_MngAuth.resources
+C:\Users\xiennajane\Desktop\Library\Library\obj\x86\Debug\Library.Frm_MngBooks.resources
+C:\Users\xiennajane\Desktop\Library\Library\obj\x86\Debug\Library.Frm_MngReader.resources
+C:\Users\xiennajane\Desktop\Library\Library\obj\x86\Debug\Library.Frm_Reader.resources
+C:\Users\xiennajane\Desktop\Library\Library\obj\x86\Debug\Library.Frm_Usr.resources
+C:\Users\xiennajane\Desktop\Library\Library\obj\x86\Debug\Library.Resources.resources
+C:\Users\xiennajane\Desktop\Library\Library\obj\x86\Debug\Library.vbproj.GenerateResource.Cache
+C:\Users\Joshua\Desktop\Requirements\BornalesLibrary\Library\obj\x86\Debug\Library.exe
+C:\Users\Joshua\Desktop\Requirements\BornalesLibrary\Library\obj\x86\Debug\Library.xml
+C:\Users\Joshua\Desktop\Requirements\BornalesLibrary\Library\obj\x86\Debug\Library.pdb
+C:\Users\Joshua\Desktop\Sources\Bornales Library\Library\obj\x86\Debug\Library.exe
+C:\Users\Joshua\Desktop\Sources\Bornales Library\Library\obj\x86\Debug\Library.xml
+C:\Users\Joshua\Desktop\Sources\Bornales Library\Library\obj\x86\Debug\Library.pdb
+C:\Users\Joshua\Desktop\Sources\Bornales Library\Library\bin\Debug\Library.exe
+C:\Users\Joshua\Desktop\Sources\Bornales Library\Library\bin\Debug\Library.pdb
+C:\Users\Joshua\Desktop\Sources\Bornales Library\Library\bin\Debug\Library.xml
+C:\Users\Joshua\Desktop\Sources\Bornales Library\Library\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Joshua\Desktop\Sources\Bornales Library\Library\obj\x86\Debug\Library.Frm_AddCopies.resources
+C:\Users\Joshua\Desktop\Sources\Bornales Library\Library\obj\x86\Debug\Library.Frm_AdvncSrc.resources
+C:\Users\Joshua\Desktop\Sources\Bornales Library\Library\obj\x86\Debug\Library.Frm_Login.resources
+C:\Users\Joshua\Desktop\Sources\Bornales Library\Library\obj\x86\Debug\Library.Frm_Main.resources
+C:\Users\Joshua\Desktop\Sources\Bornales Library\Library\obj\x86\Debug\Library.Frm_MngAuth.resources
+C:\Users\Joshua\Desktop\Sources\Bornales Library\Library\obj\x86\Debug\Library.Frm_MngBooks.resources
+C:\Users\Joshua\Desktop\Sources\Bornales Library\Library\obj\x86\Debug\Library.Frm_MngReader.resources
+C:\Users\Joshua\Desktop\Sources\Bornales Library\Library\obj\x86\Debug\Library.Frm_Reader.resources
+C:\Users\Joshua\Desktop\Sources\Bornales Library\Library\obj\x86\Debug\Library.Frm_Usr.resources
+C:\Users\Joshua\Desktop\Sources\Bornales Library\Library\obj\x86\Debug\Library.Resources.resources
+C:\Users\Joshua\Desktop\Sources\Bornales Library\Library\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Joshua\Desktop\Sources\Bornales Library\Library\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\!Study 101\2nd year, Second SEM\DMS1\Sources\Bornales Library\Library\obj\x86\Debug\Library.exe
+D:\!Study 101\2nd year, Second SEM\DMS1\Sources\Bornales Library\Library\obj\x86\Debug\Library.xml
+D:\!Study 101\2nd year, Second SEM\DMS1\Sources\Bornales Library\Library\obj\x86\Debug\Library.pdb
+D:\!Study 101\2nd year, Second SEM\DMS1\Sources\Bornales Library\Library\bin\Debug\Library.exe
+D:\!Study 101\2nd year, Second SEM\DMS1\Sources\Bornales Library\Library\bin\Debug\Library.pdb
+D:\!Study 101\2nd year, Second SEM\DMS1\Sources\Bornales Library\Library\bin\Debug\Library.xml
+D:\!Study 101\2nd year, Second SEM\DMS1\Sources\Bornales Library\Library\obj\x86\Debug\Library.Frm_AddCopies.resources
+D:\!Study 101\2nd year, Second SEM\DMS1\Sources\Bornales Library\Library\obj\x86\Debug\Library.Frm_AdvncSrc.resources
+D:\!Study 101\2nd year, Second SEM\DMS1\Sources\Bornales Library\Library\obj\x86\Debug\Library.Frm_Login.resources
+D:\!Study 101\2nd year, Second SEM\DMS1\Sources\Bornales Library\Library\obj\x86\Debug\Library.Frm_Main.resources
+D:\!Study 101\2nd year, Second SEM\DMS1\Sources\Bornales Library\Library\obj\x86\Debug\Library.Frm_MngAuth.resources
+D:\!Study 101\2nd year, Second SEM\DMS1\Sources\Bornales Library\Library\obj\x86\Debug\Library.Frm_MngBooks.resources
+D:\!Study 101\2nd year, Second SEM\DMS1\Sources\Bornales Library\Library\obj\x86\Debug\Library.Frm_MngReader.resources
+D:\!Study 101\2nd year, Second SEM\DMS1\Sources\Bornales Library\Library\obj\x86\Debug\Library.Frm_Reader.resources
+D:\!Study 101\2nd year, Second SEM\DMS1\Sources\Bornales Library\Library\obj\x86\Debug\Library.Frm_Usr.resources
+D:\!Study 101\2nd year, Second SEM\DMS1\Sources\Bornales Library\Library\obj\x86\Debug\Library.Resources.resources
+D:\!Study 101\2nd year, Second SEM\DMS1\Sources\Bornales Library\Library\obj\x86\Debug\Library.vbproj.GenerateResource.Cache
+D:\Users\Joshua\Desktop\Bornales Library\Library\obj\x86\Debug\Library.exe
+D:\Users\Joshua\Desktop\Bornales Library\Library\obj\x86\Debug\Library.xml
+D:\Users\Joshua\Desktop\Bornales Library\Library\obj\x86\Debug\Library.pdb
+D:\Users\Joshua\Desktop\Bornales Library\Library\bin\Debug\Library.exe
+D:\Users\Joshua\Desktop\Bornales Library\Library\bin\Debug\Library.pdb
+D:\Users\Joshua\Desktop\Bornales Library\Library\bin\Debug\Library.xml
+D:\Users\Joshua\Desktop\Bornales Library\Library\obj\x86\Debug\Library.Frm_AddCopies.resources
+D:\Users\Joshua\Desktop\Bornales Library\Library\obj\x86\Debug\Library.Frm_AdvncSrc.resources
+D:\Users\Joshua\Desktop\Bornales Library\Library\obj\x86\Debug\Library.Frm_Login.resources
+D:\Users\Joshua\Desktop\Bornales Library\Library\obj\x86\Debug\Library.Frm_Main.resources
+D:\Users\Joshua\Desktop\Bornales Library\Library\obj\x86\Debug\Library.Frm_MngAuth.resources
+D:\Users\Joshua\Desktop\Bornales Library\Library\obj\x86\Debug\Library.Frm_MngBooks.resources
+D:\Users\Joshua\Desktop\Bornales Library\Library\obj\x86\Debug\Library.Frm_MngReader.resources
+D:\Users\Joshua\Desktop\Bornales Library\Library\obj\x86\Debug\Library.Frm_Reader.resources
+D:\Users\Joshua\Desktop\Bornales Library\Library\obj\x86\Debug\Library.Frm_Usr.resources
+D:\Users\Joshua\Desktop\Bornales Library\Library\obj\x86\Debug\Library.Resources.resources
+D:\Users\Joshua\Desktop\Bornales Library\Library\obj\x86\Debug\Library.vbproj.GenerateResource.Cache
+D:\Users\Joshua\Desktop\Final_LMS\Library\obj\x86\Debug\Library.exe
+D:\Users\Joshua\Desktop\Final_LMS\Library\obj\x86\Debug\Library.xml
+D:\Users\Joshua\Desktop\Final_LMS\Library\obj\x86\Debug\Library.pdb
+D:\Users\Joshua\Desktop\Final_LMS\Library\bin\Debug\Library.exe
+D:\Users\Joshua\Desktop\Final_LMS\Library\bin\Debug\Library.pdb
+D:\Users\Joshua\Desktop\Final_LMS\Library\bin\Debug\Library.xml
+D:\Users\Joshua\Desktop\Final_LMS\Library\obj\x86\Debug\Library.Frm_AddCopies.resources
+D:\Users\Joshua\Desktop\Final_LMS\Library\obj\x86\Debug\Library.Frm_AdvncSrc.resources
+D:\Users\Joshua\Desktop\Final_LMS\Library\obj\x86\Debug\Library.Frm_Login.resources
+D:\Users\Joshua\Desktop\Final_LMS\Library\obj\x86\Debug\Library.Frm_Main.resources
+D:\Users\Joshua\Desktop\Final_LMS\Library\obj\x86\Debug\Library.Frm_MngAuth.resources
+D:\Users\Joshua\Desktop\Final_LMS\Library\obj\x86\Debug\Library.Frm_MngBooks.resources
+D:\Users\Joshua\Desktop\Final_LMS\Library\obj\x86\Debug\Library.Frm_MngReader.resources
+D:\Users\Joshua\Desktop\Final_LMS\Library\obj\x86\Debug\Library.Frm_Reader.resources
+D:\Users\Joshua\Desktop\Final_LMS\Library\obj\x86\Debug\Library.Frm_Usr.resources
+D:\Users\Joshua\Desktop\Final_LMS\Library\obj\x86\Debug\Library.Resources.resources
+D:\Users\Joshua\Desktop\Final_LMS\Library\obj\x86\Debug\Library.vbproj.GenerateResource.Cache
+D:\Users\Joshua\Desktop\Final_LMS - Copy\Library\obj\x86\Debug\Library.exe
+D:\Users\Joshua\Desktop\Final_LMS - Copy\Library\obj\x86\Debug\Library.xml
+D:\Users\Joshua\Desktop\Final_LMS - Copy\Library\obj\x86\Debug\Library.pdb
+D:\Users\Joshua\Desktop\Final_LMS - Copy\Library\bin\Debug\Library.exe
+D:\Users\Joshua\Desktop\Final_LMS - Copy\Library\bin\Debug\Library.pdb
+D:\Users\Joshua\Desktop\Final_LMS - Copy\Library\bin\Debug\Library.xml
+D:\Users\Joshua\Desktop\Final_LMS - Copy\Library\obj\x86\Debug\Library.Frm_AddCopies.resources
+D:\Users\Joshua\Desktop\Final_LMS - Copy\Library\obj\x86\Debug\Library.Frm_AdvncSrc.resources
+D:\Users\Joshua\Desktop\Final_LMS - Copy\Library\obj\x86\Debug\Library.Frm_Login.resources
+D:\Users\Joshua\Desktop\Final_LMS - Copy\Library\obj\x86\Debug\Library.Frm_Main.resources
+D:\Users\Joshua\Desktop\Final_LMS - Copy\Library\obj\x86\Debug\Library.Frm_MngAuth.resources
+D:\Users\Joshua\Desktop\Final_LMS - Copy\Library\obj\x86\Debug\Library.Frm_MngBooks.resources
+D:\Users\Joshua\Desktop\Final_LMS - Copy\Library\obj\x86\Debug\Library.Frm_MngReader.resources
+D:\Users\Joshua\Desktop\Final_LMS - Copy\Library\obj\x86\Debug\Library.Frm_Reader.resources
+D:\Users\Joshua\Desktop\Final_LMS - Copy\Library\obj\x86\Debug\Library.Frm_Usr.resources
+D:\Users\Joshua\Desktop\Final_LMS - Copy\Library\obj\x86\Debug\Library.Generate_Report.resources
+D:\Users\Joshua\Desktop\Final_LMS - Copy\Library\obj\x86\Debug\Library.Resources.resources
+D:\Users\Joshua\Desktop\Final_LMS - Copy\Library\obj\x86\Debug\Library.vbproj.GenerateResource.Cache
+D:\Users\Joshua\Desktop\Final_LMS - Copy\Library\obj\x86\Debug\Library.vbprojResolveAssemblyReference.cache
+D:\Users\Joshua\Desktop\Final_LMS - Copy\Library\obj\x86\Debug\Library.Report.resources
+D:\Users\Joshua\Desktop\Final_LMS -!\Library\obj\x86\Debug\Library.exe
+D:\Users\Joshua\Desktop\Final_LMS -!\Library\obj\x86\Debug\Library.xml
+D:\Users\Joshua\Desktop\Final_LMS -!\Library\obj\x86\Debug\Library.pdb
+D:\Users\Joshua\Desktop\Final_LMS -!\Library\bin\Debug\Library.exe
+D:\Users\Joshua\Desktop\Final_LMS -!\Library\bin\Debug\Library.pdb
+D:\Users\Joshua\Desktop\Final_LMS -!\Library\bin\Debug\Library.xml
+D:\Users\Joshua\Desktop\Final_LMS -!\Library\obj\x86\Debug\Library.vbprojResolveAssemblyReference.cache
+D:\Users\Joshua\Desktop\Final_LMS -!\Library\obj\x86\Debug\Library.Frm_AddCopies.resources
+D:\Users\Joshua\Desktop\Final_LMS -!\Library\obj\x86\Debug\Library.Frm_AdvncSrc.resources
+D:\Users\Joshua\Desktop\Final_LMS -!\Library\obj\x86\Debug\Library.Frm_Login.resources
+D:\Users\Joshua\Desktop\Final_LMS -!\Library\obj\x86\Debug\Library.Frm_Main.resources
+D:\Users\Joshua\Desktop\Final_LMS -!\Library\obj\x86\Debug\Library.Frm_MngAuth.resources
+D:\Users\Joshua\Desktop\Final_LMS -!\Library\obj\x86\Debug\Library.Frm_MngBooks.resources
+D:\Users\Joshua\Desktop\Final_LMS -!\Library\obj\x86\Debug\Library.Frm_MngReader.resources
+D:\Users\Joshua\Desktop\Final_LMS -!\Library\obj\x86\Debug\Library.Frm_Reader.resources
+D:\Users\Joshua\Desktop\Final_LMS -!\Library\obj\x86\Debug\Library.Frm_Usr.resources
+D:\Users\Joshua\Desktop\Final_LMS -!\Library\obj\x86\Debug\Library.Generate_Report.resources
+D:\Users\Joshua\Desktop\Final_LMS -!\Library\obj\x86\Debug\Library.Resources.resources
+D:\Users\Joshua\Desktop\Final_LMS -!\Library\obj\x86\Debug\Library.Report.resources
+D:\Users\Joshua\Desktop\Final_LMS -!\Library\obj\x86\Debug\Library.vbproj.GenerateResource.Cache
+D:\!Study 101\System\SoftEng Final LMS\Final_LMS -!\Library\obj\x86\Debug\Library.exe
+D:\!Study 101\System\SoftEng Final LMS\Final_LMS -!\Library\obj\x86\Debug\Library.xml
+D:\!Study 101\System\SoftEng Final LMS\Final_LMS -!\Library\obj\x86\Debug\Library.pdb
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\bin\Debug\Library.exe
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\bin\Debug\Library.pdb
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\bin\Debug\Library.xml
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\obj\x86\Debug\Library.vbprojResolveAssemblyReference.cache
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\obj\x86\Debug\Library.Frm_AddCopies.resources
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\obj\x86\Debug\Library.Frm_AdvncSrc.resources
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\obj\x86\Debug\Library.Frm_Login.resources
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\obj\x86\Debug\Library.Frm_Main.resources
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\obj\x86\Debug\Library.Frm_MngAuth.resources
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\obj\x86\Debug\Library.Frm_MngBooks.resources
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\obj\x86\Debug\Library.Frm_MngReader.resources
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\obj\x86\Debug\Library.Frm_Reader.resources
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\obj\x86\Debug\Library.Frm_Usr.resources
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\obj\x86\Debug\Library.Generate_Report.resources
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\obj\x86\Debug\Library.Resources.resources
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\obj\x86\Debug\Library.Report.resources
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\obj\x86\Debug\Library.vbproj.GenerateResource.Cache
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\obj\x86\Debug\Library.vbproj.CoreCompileInputs.cache
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\obj\x86\Debug\Library.exe
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\obj\x86\Debug\Library.xml
+F:\Sem.4\VB.net Trials\JB_LibraryMS\Library\obj\x86\Debug\Library.pdb
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\bin\Debug\Library.exe
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\bin\Debug\Library.pdb
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\bin\Debug\Library.xml
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.vbprojAssemblyReference.cache
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Frm_AddCopies.resources
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Frm_AdvncSrc.resources
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Frm_Login.resources
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Frm_Main.resources
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Frm_MngAuth.resources
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Frm_MngBooks.resources
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Frm_MngReader.resources
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Frm_Reader.resources
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Frm_Usr.resources
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Generate_Report.resources
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Resources.resources
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Report.resources
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.vbproj.GenerateResource.cache
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.vbproj.CopyComplete
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.exe
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.xml
+D:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.pdb
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\bin\Debug\Library.exe
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\bin\Debug\Library.pdb
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\bin\Debug\Library.xml
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.vbprojAssemblyReference.cache
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Frm_AddCopies.resources
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Frm_AdvncSrc.resources
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Frm_Login.resources
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Frm_Main.resources
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Frm_MngAuth.resources
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Frm_MngBooks.resources
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Frm_MngReader.resources
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Frm_Reader.resources
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Frm_Usr.resources
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Generate_Report.resources
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Resources.resources
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Report.resources
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.vbproj.GenerateResource.cache
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.vbproj.CopyComplete
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.exe
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.xml
+C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.pdb
