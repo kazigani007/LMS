@@ -84,7 +84,7 @@ Partial Class Report
         '
         Me.Lbl_Nme.AutoSize = True
         Me.Lbl_Nme.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lbl_Nme.ForeColor = System.Drawing.Color.Lime
+        Me.Lbl_Nme.ForeColor = System.Drawing.Color.Black
         Me.Lbl_Nme.Location = New System.Drawing.Point(33, 335)
         Me.Lbl_Nme.Name = "Lbl_Nme"
         Me.Lbl_Nme.Size = New System.Drawing.Size(61, 16)
@@ -115,7 +115,7 @@ Partial Class Report
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.LimeGreen
+        Me.Panel1.BackColor = System.Drawing.Color.LightCoral
         Me.Panel1.Controls.Add(Me.Lbl_BC)
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
@@ -125,9 +125,9 @@ Partial Class Report
         'Lbl_BC
         '
         Me.Lbl_BC.AutoSize = True
-        Me.Lbl_BC.BackColor = System.Drawing.Color.DarkGreen
+        Me.Lbl_BC.BackColor = System.Drawing.Color.Tomato
         Me.Lbl_BC.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lbl_BC.ForeColor = System.Drawing.Color.LimeGreen
+        Me.Lbl_BC.ForeColor = System.Drawing.Color.Black
         Me.Lbl_BC.Location = New System.Drawing.Point(139, 9)
         Me.Lbl_BC.Name = "Lbl_BC"
         Me.Lbl_BC.Size = New System.Drawing.Size(533, 55)
@@ -145,7 +145,7 @@ Partial Class Report
         '
         'Panel2
         '
-        Me.Panel2.BackColor = System.Drawing.Color.LimeGreen
+        Me.Panel2.BackColor = System.Drawing.Color.LightCoral
         Me.Panel2.Controls.Add(Me.Label3)
         Me.Panel2.Location = New System.Drawing.Point(210, 305)
         Me.Panel2.Name = "Panel2"
@@ -155,9 +155,9 @@ Partial Class Report
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.DarkGreen
+        Me.Label3.BackColor = System.Drawing.Color.LightCoral
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.Lime
+        Me.Label3.ForeColor = System.Drawing.Color.Black
         Me.Label3.Location = New System.Drawing.Point(181, 3)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(201, 25)
@@ -166,7 +166,7 @@ Partial Class Report
         '
         'Panel3
         '
-        Me.Panel3.BackColor = System.Drawing.Color.LimeGreen
+        Me.Panel3.BackColor = System.Drawing.Color.LightCoral
         Me.Panel3.Controls.Add(Me.Label4)
         Me.Panel3.Location = New System.Drawing.Point(210, 77)
         Me.Panel3.Name = "Panel3"
@@ -176,9 +176,9 @@ Partial Class Report
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.DarkGreen
+        Me.Label4.BackColor = System.Drawing.Color.LightCoral
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.Lime
+        Me.Label4.ForeColor = System.Drawing.Color.Black
         Me.Label4.Location = New System.Drawing.Point(181, 3)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(176, 25)
@@ -196,7 +196,7 @@ Partial Class Report
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.Lime
+        Me.Label5.ForeColor = System.Drawing.Color.Black
         Me.Label5.Location = New System.Drawing.Point(51, 107)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(109, 16)
@@ -207,7 +207,7 @@ Partial Class Report
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.Lime
+        Me.Label6.ForeColor = System.Drawing.Color.Black
         Me.Label6.Location = New System.Drawing.Point(43, 155)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(117, 16)
@@ -225,7 +225,7 @@ Partial Class Report
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.DarkGreen
+        Me.BackColor = System.Drawing.Color.IndianRed
         Me.ClientSize = New System.Drawing.Size(803, 530)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.TbAuthor)

@@ -145,9 +145,9 @@ Partial Class Frm_Reader
         '
         'Bttn_Save
         '
-        Me.Bttn_Save.BackColor = System.Drawing.Color.ForestGreen
+        Me.Bttn_Save.BackColor = System.Drawing.Color.LightCoral
         Me.Bttn_Save.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Bttn_Save.ForeColor = System.Drawing.Color.LawnGreen
+        Me.Bttn_Save.ForeColor = System.Drawing.Color.Black
         Me.Bttn_Save.Location = New System.Drawing.Point(168, 195)
         Me.Bttn_Save.Name = "Bttn_Save"
         Me.Bttn_Save.Size = New System.Drawing.Size(75, 28)
@@ -159,8 +159,8 @@ Partial Class Frm_Reader
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.DarkGreen
-        Me.ClientSize = New System.Drawing.Size(417, 235)
+        Me.BackColor = System.Drawing.Color.IndianRed
+        Me.ClientSize = New System.Drawing.Size(417, 234)
         Me.Controls.Add(Me.Bttn_Save)
         Me.Controls.Add(Me.Cb_TYP)
         Me.Controls.Add(Me.Cb_SEX)
@@ -174,7 +174,7 @@ Partial Class Frm_Reader
         Me.Controls.Add(Me.Lbl_IDN)
         Me.Controls.Add(Me.Tb_RID)
         Me.Controls.Add(Me.Lbl_RID)
-        Me.ForeColor = System.Drawing.Color.Lime
+        Me.ForeColor = System.Drawing.Color.Black
         Me.MaximumSize = New System.Drawing.Size(433, 273)
         Me.MinimumSize = New System.Drawing.Size(433, 273)
         Me.Name = "Frm_Reader"

@@ -91,12 +91,13 @@ Partial Class Frm_MngReader
         '
         Me.TsTb_Srch.BackColor = System.Drawing.Color.White
         Me.TsTb_Srch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TsTb_Srch.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.TsTb_Srch.Name = "TsTb_Srch"
         Me.TsTb_Srch.Size = New System.Drawing.Size(129, 27)
         '
         'Tstp_ADES
         '
-        Me.Tstp_ADES.BackColor = System.Drawing.Color.Green
+        Me.Tstp_ADES.BackColor = System.Drawing.Color.Tomato
         Me.Tstp_ADES.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.Tstp_ADES.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.Tstp_ADES.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Tsb_Add, Me.Tsb_Edit, Me.Tsb_Delete, Me.Tsl_Srch, Me.TsTb_Srch})
@@ -110,11 +111,11 @@ Partial Class Frm_MngReader
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.DarkGreen
-        Me.ClientSize = New System.Drawing.Size(586, 432)
+        Me.BackColor = System.Drawing.Color.IndianRed
+        Me.ClientSize = New System.Drawing.Size(586, 431)
         Me.Controls.Add(Me.Tstp_ADES)
         Me.Controls.Add(Me.Dgv_Stdnts)
-        Me.ForeColor = System.Drawing.Color.Lime
+        Me.ForeColor = System.Drawing.Color.Black
         Me.MaximumSize = New System.Drawing.Size(602, 470)
         Me.MinimumSize = New System.Drawing.Size(602, 470)
         Me.Name = "Frm_MngReader"

@@ -33,9 +33,9 @@ Partial Class Generate_Report
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button1.BackColor = System.Drawing.Color.LightCoral
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.Lime
+        Me.Button1.ForeColor = System.Drawing.Color.Black
         Me.Button1.Location = New System.Drawing.Point(25, 54)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(145, 37)
@@ -45,9 +45,9 @@ Partial Class Generate_Report
         '
         'Button2
         '
-        Me.Button2.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button2.BackColor = System.Drawing.Color.LightCoral
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.Lime
+        Me.Button2.ForeColor = System.Drawing.Color.Black
         Me.Button2.Location = New System.Drawing.Point(25, 124)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(145, 37)
@@ -57,9 +57,9 @@ Partial Class Generate_Report
         '
         'Button3
         '
-        Me.Button3.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button3.BackColor = System.Drawing.Color.LightCoral
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.Color.Lime
+        Me.Button3.ForeColor = System.Drawing.Color.Black
         Me.Button3.Location = New System.Drawing.Point(25, 195)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(145, 37)
@@ -69,9 +69,9 @@ Partial Class Generate_Report
         '
         'Button4
         '
-        Me.Button4.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button4.BackColor = System.Drawing.Color.LightCoral
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.ForeColor = System.Drawing.Color.Lime
+        Me.Button4.ForeColor = System.Drawing.Color.Black
         Me.Button4.Location = New System.Drawing.Point(25, 261)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(145, 37)
@@ -81,9 +81,9 @@ Partial Class Generate_Report
         '
         'Button5
         '
-        Me.Button5.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button5.BackColor = System.Drawing.Color.LightCoral
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.ForeColor = System.Drawing.Color.Lime
+        Me.Button5.ForeColor = System.Drawing.Color.Black
         Me.Button5.Location = New System.Drawing.Point(203, 54)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(145, 37)
@@ -93,9 +93,9 @@ Partial Class Generate_Report
         '
         'Button6
         '
-        Me.Button6.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button6.BackColor = System.Drawing.Color.LightCoral
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.ForeColor = System.Drawing.Color.Lime
+        Me.Button6.ForeColor = System.Drawing.Color.Black
         Me.Button6.Location = New System.Drawing.Point(203, 124)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(145, 37)
@@ -105,9 +105,9 @@ Partial Class Generate_Report
         '
         'Button7
         '
-        Me.Button7.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button7.BackColor = System.Drawing.Color.LightCoral
         Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.ForeColor = System.Drawing.Color.Lime
+        Me.Button7.ForeColor = System.Drawing.Color.Black
         Me.Button7.Location = New System.Drawing.Point(203, 195)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(264, 103)
@@ -119,7 +119,7 @@ Partial Class Generate_Report
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.DarkGreen
+        Me.BackColor = System.Drawing.Color.IndianRed
         Me.ClientSize = New System.Drawing.Size(514, 374)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)

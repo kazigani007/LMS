@@ -46,6 +46,8 @@ Partial Class Frm_MngAuth
         '
         'Tb_LN
         '
+        Me.Tb_LN.BackColor = System.Drawing.Color.White
+        Me.Tb_LN.ForeColor = System.Drawing.Color.Black
         Me.Tb_LN.Location = New System.Drawing.Point(12, 226)
         Me.Tb_LN.Name = "Tb_LN"
         Me.Tb_LN.ReadOnly = True
@@ -55,8 +57,8 @@ Partial Class Frm_MngAuth
         'Lb_Ln
         '
         Me.Lb_Ln.AutoSize = True
-        Me.Lb_Ln.BackColor = System.Drawing.Color.DarkGreen
-        Me.Lb_Ln.ForeColor = System.Drawing.Color.Lime
+        Me.Lb_Ln.BackColor = System.Drawing.Color.LightCoral
+        Me.Lb_Ln.ForeColor = System.Drawing.Color.Black
         Me.Lb_Ln.Location = New System.Drawing.Point(9, 209)
         Me.Lb_Ln.Name = "Lb_Ln"
         Me.Lb_Ln.Size = New System.Drawing.Size(64, 13)
@@ -65,6 +67,8 @@ Partial Class Frm_MngAuth
         '
         'Tb_FN
         '
+        Me.Tb_FN.BackColor = System.Drawing.Color.White
+        Me.Tb_FN.ForeColor = System.Drawing.Color.Black
         Me.Tb_FN.Location = New System.Drawing.Point(12, 167)
         Me.Tb_FN.Name = "Tb_FN"
         Me.Tb_FN.ReadOnly = True
@@ -74,8 +78,8 @@ Partial Class Frm_MngAuth
         'Lbl_FN
         '
         Me.Lbl_FN.AutoSize = True
-        Me.Lbl_FN.BackColor = System.Drawing.Color.DarkGreen
-        Me.Lbl_FN.ForeColor = System.Drawing.Color.Lime
+        Me.Lbl_FN.BackColor = System.Drawing.Color.LightCoral
+        Me.Lbl_FN.ForeColor = System.Drawing.Color.Black
         Me.Lbl_FN.Location = New System.Drawing.Point(9, 150)
         Me.Lbl_FN.Name = "Lbl_FN"
         Me.Lbl_FN.Size = New System.Drawing.Size(63, 13)
@@ -84,6 +88,8 @@ Partial Class Frm_MngAuth
         '
         'Tb_AID
         '
+        Me.Tb_AID.BackColor = System.Drawing.Color.White
+        Me.Tb_AID.ForeColor = System.Drawing.Color.Black
         Me.Tb_AID.Location = New System.Drawing.Point(12, 114)
         Me.Tb_AID.Name = "Tb_AID"
         Me.Tb_AID.ReadOnly = True
@@ -93,8 +99,8 @@ Partial Class Frm_MngAuth
         'Lbl_AID
         '
         Me.Lbl_AID.AutoSize = True
-        Me.Lbl_AID.BackColor = System.Drawing.Color.DarkGreen
-        Me.Lbl_AID.ForeColor = System.Drawing.Color.Lime
+        Me.Lbl_AID.BackColor = System.Drawing.Color.LightCoral
+        Me.Lbl_AID.ForeColor = System.Drawing.Color.Black
         Me.Lbl_AID.Location = New System.Drawing.Point(9, 97)
         Me.Lbl_AID.Name = "Lbl_AID"
         Me.Lbl_AID.Size = New System.Drawing.Size(63, 13)
@@ -103,8 +109,8 @@ Partial Class Frm_MngAuth
         '
         'Bttn_Add
         '
-        Me.Bttn_Add.BackColor = System.Drawing.Color.Green
-        Me.Bttn_Add.ForeColor = System.Drawing.Color.Lime
+        Me.Bttn_Add.BackColor = System.Drawing.Color.LightCoral
+        Me.Bttn_Add.ForeColor = System.Drawing.Color.Black
         Me.Bttn_Add.Location = New System.Drawing.Point(12, 280)
         Me.Bttn_Add.Name = "Bttn_Add"
         Me.Bttn_Add.Size = New System.Drawing.Size(75, 23)
@@ -114,8 +120,8 @@ Partial Class Frm_MngAuth
         '
         'Bttn_Edt
         '
-        Me.Bttn_Edt.BackColor = System.Drawing.Color.Green
-        Me.Bttn_Edt.ForeColor = System.Drawing.Color.Lime
+        Me.Bttn_Edt.BackColor = System.Drawing.Color.LightCoral
+        Me.Bttn_Edt.ForeColor = System.Drawing.Color.Black
         Me.Bttn_Edt.Location = New System.Drawing.Point(117, 280)
         Me.Bttn_Edt.Name = "Bttn_Edt"
         Me.Bttn_Edt.Size = New System.Drawing.Size(75, 23)
@@ -125,8 +131,8 @@ Partial Class Frm_MngAuth
         '
         'Bttn_Dlt
         '
-        Me.Bttn_Dlt.BackColor = System.Drawing.Color.Green
-        Me.Bttn_Dlt.ForeColor = System.Drawing.Color.Lime
+        Me.Bttn_Dlt.BackColor = System.Drawing.Color.LightCoral
+        Me.Bttn_Dlt.ForeColor = System.Drawing.Color.Black
         Me.Bttn_Dlt.Location = New System.Drawing.Point(12, 332)
         Me.Bttn_Dlt.Name = "Bttn_Dlt"
         Me.Bttn_Dlt.Size = New System.Drawing.Size(75, 23)
@@ -136,9 +142,9 @@ Partial Class Frm_MngAuth
         '
         'Bttn_Cncl
         '
-        Me.Bttn_Cncl.BackColor = System.Drawing.Color.Green
+        Me.Bttn_Cncl.BackColor = System.Drawing.Color.LightCoral
         Me.Bttn_Cncl.Enabled = False
-        Me.Bttn_Cncl.ForeColor = System.Drawing.Color.Lime
+        Me.Bttn_Cncl.ForeColor = System.Drawing.Color.Black
         Me.Bttn_Cncl.Location = New System.Drawing.Point(117, 332)
         Me.Bttn_Cncl.Name = "Bttn_Cncl"
         Me.Bttn_Cncl.Size = New System.Drawing.Size(75, 23)
@@ -182,8 +188,8 @@ Partial Class Frm_MngAuth
         '
         'Bttn_Assgn
         '
-        Me.Bttn_Assgn.BackColor = System.Drawing.Color.Green
-        Me.Bttn_Assgn.ForeColor = System.Drawing.Color.Lime
+        Me.Bttn_Assgn.BackColor = System.Drawing.Color.LightCoral
+        Me.Bttn_Assgn.ForeColor = System.Drawing.Color.Black
         Me.Bttn_Assgn.Location = New System.Drawing.Point(500, 150)
         Me.Bttn_Assgn.Name = "Bttn_Assgn"
         Me.Bttn_Assgn.Size = New System.Drawing.Size(49, 23)
@@ -193,8 +199,8 @@ Partial Class Frm_MngAuth
         '
         'Bttn_UnAssgn
         '
-        Me.Bttn_UnAssgn.BackColor = System.Drawing.Color.Green
-        Me.Bttn_UnAssgn.ForeColor = System.Drawing.Color.Lime
+        Me.Bttn_UnAssgn.BackColor = System.Drawing.Color.LightCoral
+        Me.Bttn_UnAssgn.ForeColor = System.Drawing.Color.Black
         Me.Bttn_UnAssgn.Location = New System.Drawing.Point(500, 238)
         Me.Bttn_UnAssgn.Name = "Bttn_UnAssgn"
         Me.Bttn_UnAssgn.Size = New System.Drawing.Size(49, 23)
@@ -205,9 +211,9 @@ Partial Class Frm_MngAuth
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.DarkGreen
+        Me.Label1.BackColor = System.Drawing.Color.LightCoral
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.Lime
+        Me.Label1.ForeColor = System.Drawing.Color.Black
         Me.Label1.Location = New System.Drawing.Point(205, 36)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(74, 17)
@@ -217,9 +223,9 @@ Partial Class Frm_MngAuth
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.DarkGreen
+        Me.Label2.BackColor = System.Drawing.Color.LightCoral
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.Lime
+        Me.Label2.ForeColor = System.Drawing.Color.Black
         Me.Label2.Location = New System.Drawing.Point(552, 36)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(145, 17)
@@ -228,6 +234,8 @@ Partial Class Frm_MngAuth
         '
         'Tb_Srch
         '
+        Me.Tb_Srch.BackColor = System.Drawing.Color.White
+        Me.Tb_Srch.ForeColor = System.Drawing.Color.Black
         Me.Tb_Srch.Location = New System.Drawing.Point(384, 37)
         Me.Tb_Srch.Name = "Tb_Srch"
         Me.Tb_Srch.Size = New System.Drawing.Size(110, 20)
@@ -236,8 +244,8 @@ Partial Class Frm_MngAuth
         'Lbl_Srch
         '
         Me.Lbl_Srch.AutoSize = True
-        Me.Lbl_Srch.BackColor = System.Drawing.Color.DarkGreen
-        Me.Lbl_Srch.ForeColor = System.Drawing.Color.Lime
+        Me.Lbl_Srch.BackColor = System.Drawing.Color.LightCoral
+        Me.Lbl_Srch.ForeColor = System.Drawing.Color.Black
         Me.Lbl_Srch.Location = New System.Drawing.Point(334, 40)
         Me.Lbl_Srch.Name = "Lbl_Srch"
         Me.Lbl_Srch.Size = New System.Drawing.Size(44, 13)
@@ -248,8 +256,8 @@ Partial Class Frm_MngAuth
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.DarkGreen
-        Me.ClientSize = New System.Drawing.Size(856, 378)
+        Me.BackColor = System.Drawing.Color.IndianRed
+        Me.ClientSize = New System.Drawing.Size(856, 377)
         Me.Controls.Add(Me.Lbl_Srch)
         Me.Controls.Add(Me.Tb_Srch)
         Me.Controls.Add(Me.Label2)

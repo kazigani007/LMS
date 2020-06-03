@@ -32,7 +32,7 @@ Partial Class Frm_AddCopies
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.Lime
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Label1.Location = New System.Drawing.Point(12, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(83, 29)
@@ -50,7 +50,7 @@ Partial Class Frm_AddCopies
         '
         Me.Lbl_AN.AutoSize = True
         Me.Lbl_AN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lbl_AN.ForeColor = System.Drawing.Color.Lime
+        Me.Lbl_AN.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Lbl_AN.Location = New System.Drawing.Point(51, 51)
         Me.Lbl_AN.Name = "Lbl_AN"
         Me.Lbl_AN.Size = New System.Drawing.Size(138, 16)
@@ -59,10 +59,10 @@ Partial Class Frm_AddCopies
         '
         'Bttn_AddCop
         '
-        Me.Bttn_AddCop.BackColor = System.Drawing.Color.ForestGreen
+        Me.Bttn_AddCop.BackColor = System.Drawing.Color.LightCoral
         Me.Bttn_AddCop.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Bttn_AddCop.ForeColor = System.Drawing.Color.Lime
-        Me.Bttn_AddCop.Location = New System.Drawing.Point(130, 110)
+        Me.Bttn_AddCop.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Bttn_AddCop.Location = New System.Drawing.Point(130, 112)
         Me.Bttn_AddCop.Name = "Bttn_AddCop"
         Me.Bttn_AddCop.Size = New System.Drawing.Size(104, 30)
         Me.Bttn_AddCop.TabIndex = 24
@@ -73,8 +73,8 @@ Partial Class Frm_AddCopies
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.DarkGreen
-        Me.ClientSize = New System.Drawing.Size(284, 155)
+        Me.BackColor = System.Drawing.Color.IndianRed
+        Me.ClientSize = New System.Drawing.Size(284, 154)
         Me.Controls.Add(Me.Bttn_AddCop)
         Me.Controls.Add(Me.Tb_AN)
         Me.Controls.Add(Me.Lbl_AN)
