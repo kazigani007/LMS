@@ -264,9 +264,4 @@ Public Class Frm_Main
 
 
     End Sub
-
-    
-    Private Sub TSB_GenerateReport_Click(sender As Object, e As EventArgs) Handles TSB_GenerateReport.Click
-        Generate_Report.Show()
-    End Sub
 End Class

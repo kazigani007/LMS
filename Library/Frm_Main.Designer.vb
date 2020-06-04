@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Frm_Main
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,10 +20,9 @@ Partial Class Frm_Main
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Frm_Main))
         Me.Tbc_BookRetutn = New System.Windows.Forms.TabControl()
         Me.Tp_BrrwBooks = New System.Windows.Forms.TabPage()
         Me.BtnOK_DueDate = New System.Windows.Forms.Button()
@@ -71,7 +70,6 @@ Partial Class Frm_Main
         Me.TspB_MngBook = New System.Windows.Forms.ToolStripButton()
         Me.TspB_MngReader = New System.Windows.Forms.ToolStripButton()
         Me.TspB_MngUser = New System.Windows.Forms.ToolStripButton()
-        Me.TSB_GenerateReport = New System.Windows.Forms.ToolStripButton()
         Me.TspB_Logout = New System.Windows.Forms.ToolStripButton()
         Me.TspB_Exit = New System.Windows.Forms.ToolStripButton()
         Me.ErrPrvder = New System.Windows.Forms.ErrorProvider(Me.components)
@@ -596,7 +594,7 @@ Partial Class Frm_Main
         Me.Tsp_MainMenu.BackColor = System.Drawing.Color.Linen
         Me.ErrPrvder.SetIconAlignment(Me.Tsp_MainMenu, System.Windows.Forms.ErrorIconAlignment.MiddleLeft)
         Me.Tsp_MainMenu.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.Tsp_MainMenu.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TspB_MngBook, Me.TspB_MngReader, Me.TspB_MngUser, Me.TSB_GenerateReport, Me.TspB_Logout, Me.TspB_Exit})
+        Me.Tsp_MainMenu.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TspB_MngBook, Me.TspB_MngReader, Me.TspB_MngUser, Me.TspB_Logout, Me.TspB_Exit})
         Me.Tsp_MainMenu.Location = New System.Drawing.Point(0, 0)
         Me.Tsp_MainMenu.Name = "Tsp_MainMenu"
         Me.Tsp_MainMenu.Size = New System.Drawing.Size(664, 27)
@@ -629,15 +627,6 @@ Partial Class Frm_Main
         Me.TspB_MngUser.Name = "TspB_MngUser"
         Me.TspB_MngUser.Size = New System.Drawing.Size(24, 24)
         Me.TspB_MngUser.Text = "Manage User"
-        '
-        'TSB_GenerateReport
-        '
-        Me.TSB_GenerateReport.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.TSB_GenerateReport.Image = CType(resources.GetObject("TSB_GenerateReport.Image"), System.Drawing.Image)
-        Me.TSB_GenerateReport.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.TSB_GenerateReport.Name = "TSB_GenerateReport"
-        Me.TSB_GenerateReport.Size = New System.Drawing.Size(24, 24)
-        Me.TSB_GenerateReport.Text = "Generate Report"
         '
         'TspB_Logout
         '
@@ -749,5 +738,4 @@ Partial Class Frm_Main
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents DateTimeDueDate As System.Windows.Forms.DateTimePicker
     Friend WithEvents BtnOK_DueDate As System.Windows.Forms.Button
-    Friend WithEvents TSB_GenerateReport As System.Windows.Forms.ToolStripButton
 End Class

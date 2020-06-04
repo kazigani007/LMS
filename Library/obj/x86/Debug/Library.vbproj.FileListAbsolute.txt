@@ -263,9 +263,7 @@ C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMg
 C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Frm_MngReader.resources
 C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Frm_Reader.resources
 C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Frm_Usr.resources
-C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Generate_Report.resources
 C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Resources.resources
-C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.Report.resources
 C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.vbproj.GenerateResource.cache
 C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.vbproj.CopyComplete
 C:\Programming II\LIBRARY_MANAGEMENT_SYSTEM_IN_VB.NET_WITH_SOURCE_CODE\LibraryMgmtSystem_VB.NET\LibraryMS\Library\obj\x86\Debug\Library.exe
