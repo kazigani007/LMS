@@ -1,48 +1,51 @@
 ﻿Imports System.Data.OleDb
 Public Class Frm_Main
 
-    Private db As New OleDbConnection(Connect)
+    Private dbConnection As New OleDbConnection(Connect)
     Public penalty = 10
 
     'fill dataGridView
     Public Sub DgvBrrwdBooks()
-        Dim Dgv As New OleDbDataAdapter("Select BorrowTransActions.Accession_Number As [Accession Number], Book.Book_Title as [Book Title] , BorrowTransActions.Trans_Date As [Transaction Date] , BorrowTransActions.Due_Date As [Due Date] " &
+        Dim dataAdapter As New OleDbDataAdapter("Select BorrowTransActions.Accession_Number As [Accession Number], Book.Book_Title as [Book Title] , BorrowTransActions.Trans_Date As [Transaction Date] , BorrowTransActions.Due_Date As [Due Date] " &
                                         " From (BorrowTransActions Inner Join BookCopies On BookCopies.Accession_Number = BorrowTransActions.Accession_Number) Inner Join Book On Book.Book_Code = BookCopies.Book_Code" &
-                                        " Where BorrowTransActions.Reader_ID = '" & Cb_SrchReaders.Text & "' And BorrowTransActions.Return_Date Is Null ; ", db)
-        Dim Dtset As New DataSet
-        Dgv.Fill(Dtset)
-        Dgv_BrwdBooks.DataSource = Dtset.Tables(0).DefaultView
+                                        " Where BorrowTransActions.Reader_ID = '" & Cb_SrchReaders.Text & "' And BorrowTransActions.Return_Date Is Null ; ", dbConnection)
+        Dim dataSet As New DataSet
+        dataAdapter.Fill(dataSet)
+        Dgv_BrwdBooks.DataSource = dataSet.Tables(0).DefaultView
     End Sub
+
     'fill dataGridView
     Public Sub DgvHistory()
-        Dim Dgv As New OleDbDataAdapter("Select BorrowTransActions.Accession_Number As [Accession Number], Book.Book_Title as [Book Title], [Reader.LastName] + ' , ' +  [Reader.FirstName ] as [Name] , BorrowTransActions.Trans_Date As [Transaction Date] , BorrowTransActions.Due_Date As [Due Date],  BorrowTransActions.Return_Date as [Return Date], BorrowTransActions.Penalty " &
-                                        " From ((BorrowTransActions Inner Join BookCopies On BookCopies.Accession_Number = BorrowTransActions.Accession_Number) Inner Join Book On Book.Book_Code = BookCopies.Book_Code)Inner Join Reader On Reader.Reader_ID = BorrowTransActions.Reader_ID", db)
-        Dim Dtset As New DataSet
-        Dgv.Fill(Dtset)
-        Dgv_Transactions.DataSource = Dtset.Tables(0).DefaultView
+        Dim dataAdapter As New OleDbDataAdapter("Select BorrowTransActions.Accession_Number As [Accession Number], Book.Book_Title as [Book Title], [Reader.LastName] + ' , ' +  [Reader.FirstName ] as [Name] , BorrowTransActions.Trans_Date As [Transaction Date] , BorrowTransActions.Due_Date As [Due Date],  BorrowTransActions.Return_Date as [Return Date], BorrowTransActions.Penalty " &
+                                        " From ((BorrowTransActions Inner Join BookCopies On BookCopies.Accession_Number = BorrowTransActions.Accession_Number) Inner Join Book On Book.Book_Code = BookCopies.Book_Code)Inner Join Reader On Reader.Reader_ID = BorrowTransActions.Reader_ID", dbConnection)
+        Dim dataSet As New DataSet
+        dataAdapter.Fill(dataSet)
+        Dgv_Transactions.DataSource = dataSet.Tables(0).DefaultView
     End Sub
     'fill dataGridview
     Public Sub dgvBrrwdBooks2()
-        Dim Dgv As New OleDbDataAdapter("Select BorrowTransActions.Accession_Number As [Accession Number], Book.Book_Title as [Book Title] , BorrowTransActions.Trans_Date As [Transaction Date] , BorrowTransActions.Due_Date As [Due Date] ,  BorrowTransActions.Return_Date as [Return Date]  " &
+        Dim dataAdapter As New OleDbDataAdapter("Select BorrowTransActions.Accession_Number As [Accession Number], Book.Book_Title as [Book Title] , BorrowTransActions.Trans_Date As [Transaction Date] , BorrowTransActions.Due_Date As [Due Date] ,  BorrowTransActions.Return_Date as [Return Date]  " &
                                       " From (BorrowTransActions Inner Join BookCopies On BookCopies.Accession_Number = BorrowTransActions.Accession_Number) Inner Join Book On Book.Book_Code = BookCopies.Book_Code" &
-                                      " Where BorrowTransActions.Reader_ID = '" & Tb_RderID.Text & "' and  BorrowTransActions.Return_Date Is Null ;", db)
-        Dim Dtset As New DataSet
-        Dgv.Fill(Dtset)
-        Dgv_BrrwdBooks.DataSource = Dtset.Tables(0).DefaultView
+                                      " Where BorrowTransActions.Reader_ID = '" & Tb_RderID.Text & "' and  BorrowTransActions.Return_Date Is Null ;", dbConnection)
+        Dim dataSet As New DataSet
+        dataAdapter.Fill(dataSet)
+        Dgv_BrrwdBooks.DataSource = dataSet.Tables(0).DefaultView
     End Sub
+
     'fill ComboBox
     Public Sub fillCbox()
         'Fill Cb_SrchReaders
-        Dim Dgv1 As New OleDbDataAdapter("SELECT Reader_ID  FROM Reader;", db)
-        Dim Dtset1 As New DataSet
-        Dgv1.Fill(Dtset1)
-        Cb_SrchReaders.DataSource = Dtset1.Tables(0).DefaultView
+        Dim dataAdapter As New OleDbDataAdapter("SELECT Reader_ID  FROM Reader;", dbConnection)
+        Dim dataSet As New DataSet
+        dataAdapter.Fill(dataSet)
+        Cb_SrchReaders.DataSource = dataSet.Tables(0).DefaultView
         Cb_SrchReaders.ValueMember = "Reader_ID"
+
         'Fill Cb_SrcAcc
-        Dim Dgv2 As New OleDbDataAdapter("SELECT Accession_Number  FROM BookCopies;", db)
-        Dim Dtset2 As New DataSet
-        Dgv2.Fill(Dtset2)
-        Cb_SrchAcc.DataSource = Dtset2.Tables(0).DefaultView
+        Dim dataAdapterBookCopies As New OleDbDataAdapter("SELECT Accession_Number  FROM BookCopies;", dbConnection)
+        Dim dataSetBookCopies As New DataSet
+        dataAdapterBookCopies.Fill(dataSetBookCopies)
+        Cb_SrchAcc.DataSource = dataSetBookCopies.Tables(0).DefaultView
         Cb_SrchAcc.ValueMember = "Accession_Number"
     End Sub
     'Load
@@ -62,9 +65,9 @@ Public Class Frm_Main
     End Sub
     'FillTextBoxesSearchReaders
     Private Sub Cb_SrchReaders_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Cb_SrchReaders.SelectedIndexChanged
-        Dim Dgv As New OleDbDataAdapter("SELECT [FirstName] + ' ' + [LastName] as Name , Type  FROM Reader Where Reader_ID = '" & Cb_SrchReaders.Text & "';", db)
+        Dim dataAdapterBookCopies As New OleDbDataAdapter("SELECT [FirstName] + ' ' + [LastName] as Name , Type  FROM Reader Where Reader_ID = '" & Cb_SrchReaders.Text & "';", dbConnection)
         Dim Dtset As New DataSet
-        Dgv.Fill(Dtset)
+        dataAdapterBookCopies.Fill(Dtset)
         If Dtset.Tables(0).DefaultView.Count > 0 Then
             Tb_Name.Text = Dtset.Tables(0).DefaultView.Item(0).Item(0)
             Tb_Type.Text = Dtset.Tables(0).DefaultView.Item(0).Item(1)
@@ -74,13 +77,15 @@ Public Class Frm_Main
     End Sub
     'FillTextBoxesSearchBooks
     Private Sub Cb_SrchAcc_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Cb_SrchAcc.SelectedIndexChanged
-        Dim Dgv As New OleDbDataAdapter("SELECT Book.Book_Title, Book.Book_Publisher , BookCopies.Available From Book Inner Join BookCopies On BookCopies.Book_Code = Book.Book_Code Where Accession_Number = '" & Cb_SrchAcc.Text & "';", db)
-        Dim Dtset As New DataSet
-        Dgv.Fill(Dtset)
-        If Dtset.Tables(0).DefaultView.Count > 0 Then
-            Tb_Title.Text = Dtset.Tables(0).DefaultView.Item(0).Item(0)
-            Tb_Pub.Text = Dtset.Tables(0).DefaultView.Item(0).Item(1)
-            If Dtset.Tables(0).DefaultView.Item(0).Item(2) = "True" Then
+        Dim dataAdapterBookCopies As New OleDbDataAdapter("SELECT Book.Book_Title, Book.Book_Publisher , 
+            BookCopies.Available From Book Inner Join BookCopies On BookCopies.Book_Code = Book.Book_Code 
+            Where Accession_Number = '" & Cb_SrchAcc.Text & "';", dbConnection)
+        Dim dataSetBook As New DataSet
+        dataAdapterBookCopies.Fill(dataSetBook)
+        If dataSetBook.Tables(0).DefaultView.Count > 0 Then
+            Tb_Title.Text = dataSetBook.Tables(0).DefaultView.Item(0).Item(0)
+            Tb_Pub.Text = dataSetBook.Tables(0).DefaultView.Item(0).Item(1)
+            If dataSetBook.Tables(0).DefaultView.Item(0).Item(2) = "True" Then
                 Tb_Avail.Text = "Yes"
             Else
                 Tb_Avail.Text = "No"
@@ -89,12 +94,13 @@ Public Class Frm_Main
         End If
         ErrPrvder.Clear()
     End Sub
+
     'Button Borrow
     Private Sub Bttn_Borrw_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Bttn_Borrw.Click
         If Tb_Avail.Text = "No" Then
-            MessageBox.Show("The Book is Not Available ","",MessageBoxButtons.OK,MessageBoxIcon.Exclamation)
+            MessageBox.Show("The Book is Not Available ", "", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
             Exit Sub
-       
+
         Else
             If Cb_SrchReaders.Text = "" And Cb_SrchReaders.Text = "" Then
                 ErrPrvder.SetError(Cb_SrchReaders, "Please Select A Reader")
@@ -107,25 +113,28 @@ Public Class Frm_Main
             If MessageBox.Show("This Book Will Be Borrowed?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1) = Windows.Forms.DialogResult.No Then
                 Exit Sub
             End If
-            Dim insrtBrrw As New OleDbCommand("Insert Into BorrowTransActions(Accession_Number,Reader_ID,Trans_Date,Due_Date) Values('" & Cb_SrchAcc.Text & "','" & Cb_SrchReaders.Text & "',#" & Date.Today & "#,#" & Today.AddDays(3) & "#)", db)
-        Dim updteAvail As New OleDbCommand("Update BookCopies Set Available = No Where Accession_Number = '" & Cb_SrchAcc.Text & "' ", db)
-        db.Open()
-        insrtBrrw.ExecuteNonQuery()
-        updteAvail.ExecuteNonQuery()
-        db.Close()
-        Cb_SrchAcc.ResetText()
-        Tb_Title.ResetText()
-        Tb_Pub.ResetText()
-        Tb_Avail.ResetText()
-        DgvBrrwdBooks()
-        MessageBox.Show("The Book Has Been Successfully Borrowed", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
-            End If
+            Dim insrtBrrw As New OleDbCommand("Insert Into BorrowTransActions(Accession_Number,Reader_ID,Trans_Date,Due_Date) 
+                Values('" & Cb_SrchAcc.Text & "','" & Cb_SrchReaders.Text & "',#" & Date.Today & "#,#" & Today.AddDays(3) & "#)", dbConnection)
+            Dim updteAvail As New OleDbCommand("Update BookCopies Set Available = No Where Accession_Number = '" & Cb_SrchAcc.Text & "' ", dbConnection)
+            dbConnection.Open()
+            insrtBrrw.ExecuteNonQuery()
+            updteAvail.ExecuteNonQuery()
+            dbConnection.Close()
+            Cb_SrchAcc.ResetText()
+            Tb_Title.ResetText()
+            Tb_Pub.ResetText()
+            Tb_Avail.ResetText()
+            DgvBrrwdBooks()
+            MessageBox.Show("The Book Has Been Successfully Borrowed", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        End If
     End Sub
+
     'Form closing
     Private Sub Frm_Main_FormClosing(ByVal sender As System.Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles MyBase.FormClosing
         Frm_Login.Show()
         Frm_Login.Tb_Pass.ResetText()
     End Sub
+
     'Advance search Readers
     Private Sub Bttn_AdvncSrch1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Bttn_AdvncSrch1.Click
         AdvncSrch = 1
@@ -137,10 +146,12 @@ Public Class Frm_Main
         Me.Enabled = False
         Frm_AdvncSrc.Visible = True
     End Sub
+
     'Show MngBook
     Private Sub TspB_MngBook_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TspB_MngBook.Click
         Frm_MngBooks.Show()
     End Sub
+
     'Show MngREader
     Private Sub TspB_MngReader_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TspB_MngReader.Click
         Frm_MngReader.Show()
@@ -171,12 +182,12 @@ Public Class Frm_Main
     End Sub
     'fill textboxes ReaderRB
     Private Sub Cb_ReaderRB_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        Dim Dgv As New OleDbDataAdapter("SELECT [Reader.FirstName] + ' ' + [Reader.LastName] as Name ,  Reader.Type,BorrowTransActions.Due_Date as [Due Date] FROM Reader Inner Join BorrowTransActions On BorrowTransActions.Reader_ID = Reader.Reader_ID  Where Reader.Reader_ID = '" & Tb_RderID.Text & "';", db)
-        Dim Dtset As New DataSet
-        Dgv.Fill(Dtset)
-        If Dtset.Tables(0).DefaultView.Count > 0 Then
-            Tb_NameRB.Text = Dtset.Tables(0).DefaultView.Item(0).Item(0)
-            Tb_TypeRB.Text = Dtset.Tables(0).DefaultView.Item(0).Item(1)
+        Dim dataAdapterReader As New OleDbDataAdapter("SELECT [Reader.FirstName] + ' ' + [Reader.LastName] as Name ,  Reader.Type,BorrowTransActions.Due_Date as [Due Date] FROM Reader Inner Join BorrowTransActions On BorrowTransActions.Reader_ID = Reader.Reader_ID  Where Reader.Reader_ID = '" & Tb_RderID.Text & "';", dbConnection)
+        Dim dataSetReader As New DataSet
+        dataAdapterReader.Fill(dataSetReader)
+        If dataSetReader.Tables(0).DefaultView.Count > 0 Then
+            Tb_NameRB.Text = dataSetReader.Tables(0).DefaultView.Item(0).Item(0)
+            Tb_TypeRB.Text = dataSetReader.Tables(0).DefaultView.Item(0).Item(1)
         End If
         dgvBrrwdBooks2()
     End Sub
@@ -200,12 +211,14 @@ Public Class Frm_Main
             Exit Sub
         End If
         Try
-            Dim updte As New OleDbCommand("Update BorrowTransActions Set Return_Date  = #" & Date.Now & "# , Penalty = " & Tb_Pnlty.Text & " Where Accession_Number = '" & Dgv_BrrwdBooks.CurrentRow.Cells(0).Value & "'", db)
-            Dim updteAvail As New OleDbCommand("Update BookCopies Set Available = Yes Where Accession_Number = '" & Dgv_BrrwdBooks.CurrentRow.Cells(0).Value & "' ", db)
-            db.Open()
+            Dim updte As New OleDbCommand("Update BorrowTransActions Set Return_Date  = #" & Date.Now & "# , 
+                Penalty = " & Tb_Pnlty.Text & " Where Accession_Number = '" & Dgv_BrrwdBooks.CurrentRow.Cells(0).Value & "'", dbConnection)
+            Dim updteAvail As New OleDbCommand("Update BookCopies Set Available = Yes Where 
+                Accession_Number = '" & Dgv_BrrwdBooks.CurrentRow.Cells(0).Value & "' ", dbConnection)
+            dbConnection.Open()
             updte.ExecuteNonQuery()
             updteAvail.ExecuteNonQuery()
-            db.Close()
+            dbConnection.Close()
             DgvBrrwdBooks()
             dgvBrrwdBooks2()
             MessageBox.Show("The Book Has Been SuccessFully Returned ", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
@@ -248,20 +261,13 @@ Public Class Frm_Main
         If DueDate < transDate Then
             MessageBox.Show("Invalid Due Date")
             DateTimeDueDate.Value = Now
-
         Else
-
-
-            Dim UpDueDate As New OleDbCommand("Update BorrowTransActions Set Due_Date = #" & DueDate & "# Where Accession_Number = '" & Me.Dgv_BrwdBooks.CurrentRow.Cells(0).Value & "' ", db)
-            db.Open()
+            Dim UpDueDate As New OleDbCommand("Update BorrowTransActions Set Due_Date = #" & DueDate & "# Where 
+                Accession_Number = '" & Me.Dgv_BrwdBooks.CurrentRow.Cells(0).Value & "' ", dbConnection)
+            dbConnection.Open()
             UpDueDate.ExecuteNonQuery()
-            db.Close()
-
+            dbConnection.Close()
             DgvBrrwdBooks()
-
         End If
-
-
-
     End Sub
 End Class
