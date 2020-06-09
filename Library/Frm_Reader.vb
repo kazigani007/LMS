@@ -1,11 +1,13 @@
 ﻿Imports System.Data.OleDb
 Public Class Frm_Reader
-    Private db As New OleDbConnection(Connect)
+    Private dbConnection As New OleDbConnection(Connect)
+
     'Form Closing
     Private Sub Frm_Reader_FormClosing(ByVal sender As System.Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles MyBase.FormClosing
         Frm_MngReader.Enabled = True
         Frm_MngReader.DgvReader()
     End Sub
+
     'Save
     Private Sub Bttn_Save_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Bttn_Save.Click
 
@@ -19,14 +21,14 @@ Public Class Frm_Reader
                     Exit Sub
                 End If
                 Try
-                    Dim insrt As New OleDbCommand("insert into Reader Values('" & Tb_RID.Text & "','" & Tb_NMBR.Text & "','" & Tb_FN.Text & "','" & Tb_LN.Text & "','" & Cb_SEX.Text & "','" & Cb_TYP.Text & "')", db)
-                    db.Open()
+                    Dim insrt As New OleDbCommand("insert into Reader Values('" & Tb_RID.Text & "','" & Tb_NMBR.Text & "','" & Tb_FN.Text & "','" & Tb_LN.Text & "','" & Cb_SEX.Text & "','" & Cb_TYP.Text & "')", dbConnection)
+                    dbConnection.Open()
                     insrt.ExecuteNonQuery()
-                    db.Close()
+                    dbConnection.Close()
                     MessageBox.Show("Reader Info Has Been Successfully Added", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
                 Catch ex As OleDb.OleDbException
                     MessageBox.Show("The Reader Is Already Existed Please Check Reader ID", "", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
-                    db.Close()
+                    dbConnection.Close()
                 End Try
             End If
 
@@ -40,11 +42,13 @@ Public Class Frm_Reader
                 If MessageBox.Show("Do You Want To Save The Changes?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1) = Windows.Forms.DialogResult.No Then
                     Exit Sub
                 End If
-                    Dim updte As New OleDbCommand("Update Reader Set ID_Number = '" & Tb_NMBR.Text & "', FirstName = '" & Tb_FN.Text & "', LastName = '" & Tb_LN.Text & "', Sex = '" & Cb_SEX.Text & "' , Type = '" & Cb_TYP.Text & "' Where Reader_ID = '" & Tb_RID.Text & "' ", db)
-                    db.Open()
-                    updte.ExecuteNonQuery()
-                    db.Close()
-                    MessageBox.Show("Reader Info Has Been Successfully Updated", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                Dim updte As New OleDbCommand("Update Reader Set ID_Number = '" & Tb_NMBR.Text & "', 
+                    FirstName = '" & Tb_FN.Text & "', LastName = '" & Tb_LN.Text & "', Sex = '" & Cb_SEX.Text & "' , 
+                    Type = '" & Cb_TYP.Text & "' Where Reader_ID = '" & Tb_RID.Text & "' ", dbConnection)
+                dbConnection.Open()
+                updte.ExecuteNonQuery()
+                dbConnection.Close()
+                MessageBox.Show("Reader Info Has Been Successfully Updated", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
             End If
         End If
         Frm_MngReader.DgvReader()
