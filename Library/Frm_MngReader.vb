@@ -1,18 +1,19 @@
 ﻿Imports System.Data.OleDb
 Public Class Frm_MngReader
-
-    Private db As New OleDbConnection(Connect)
+    Private dbConnection As New OleDbConnection(Connect)
 
     'Fill Data GridView
     Public Sub DgvReader()
-        Dim Dgv As New OleDbDataAdapter("Select Reader_ID as [Reader ID], ID_Number as [ID Number], [LastName]+' , '+[FirstName] as Name , Sex , Type From Reader  Where Reader_ID Like '%" & TsTb_Srch.Text & "%' or LastName Like '%" & TsTb_Srch.Text & "%'", db)
+        Dim Dgv As New OleDbDataAdapter("Select Reader_ID as [Reader ID], ID_Number as [ID Number], 
+            [LastName]+' , '+[FirstName] as Name , Sex , Type From Reader  Where Reader_ID Like '%" & TsTb_Srch.Text & "%' or LastName Like '%" & TsTb_Srch.Text & "%'", dbConnection)
         Dim DtSet As New DataSet
         Dgv.Fill(DtSet)
         Dgv_Stdnts.DataSource = DtSet.Tables(0).DefaultView
     End Sub
     'Fill Textbox
     Private Sub fillReader()
-        Dim Dgv As New OleDbDataAdapter("Select Reader_ID, ID_Number, FirstName , LastName, Sex , Type From Reader  Where Reader_Id = '" & Dgv_Stdnts.CurrentRow.Cells(0).Value & "';", db)
+        Dim Dgv As New OleDbDataAdapter("Select Reader_ID, ID_Number, FirstName , LastName, Sex , Type From Reader 
+            Where Reader_Id = '" & Dgv_Stdnts.CurrentRow.Cells(0).Value & "';", dbConnection)
         Dim DtSet As New DataSet
         Dgv.Fill(DtSet)
         If DtSet.Tables(0).DefaultView.Count > 0 Then
@@ -53,10 +54,10 @@ Public Class Frm_MngReader
         If MessageBox.Show("Do You Want To Delete The Selected Reader?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1) = Windows.Forms.DialogResult.No Then
             Exit Sub
         End If
-        Dim dlte As New OleDbCommand("Delete From Reader Where Reader_ID = '" & Dgv_Stdnts.CurrentRow.Cells(0).Value & "'", db)
-        db.Open()
+        Dim dlte As New OleDbCommand("Delete From Reader Where Reader_ID = '" & Dgv_Stdnts.CurrentRow.Cells(0).Value & "'", dbConnection)
+        dbConnection.Open()
         dlte.ExecuteNonQuery()
-        db.Close()
+        dbConnection.Close()
         DgvReader()
     End Sub
     'Closing
