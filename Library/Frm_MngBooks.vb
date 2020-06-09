@@ -4,49 +4,49 @@ Public Class Frm_MngBooks
     Private dbConnection As New OleDbConnection(Connect)
     'Filling Up DgvBooks
     Private Sub DgvBooks()
-        Dim Dgv As New OleDbDataAdapter("Select Book_Code As [Book Code] , Book_Title As [Book Title] From Book;", dbConnection)
-        Dim DtSet As New DataSet
-        Dgv.Fill(DtSet)
-        Dgv_Books.DataSource = DtSet.Tables(0).DefaultView
+        Dim dataAdapter As New OleDbDataAdapter("Select Book_Code As [Book Code] , Book_Title As [Book Title] From Book;", dbConnection)
+        Dim dataSet As New DataSet
+        dataAdapter.Fill(dataSet)
+        Dgv_Books.DataSource = dataSet.Tables(0).DefaultView
     End Sub
     'Filling Up DgvBookCopies
     Public Sub DgvBookCopies()
         Try
-            Dim Dgv As New OleDbDataAdapter("Select Accession_Number As [Accession Number] From BookCopies Where Book_Code = '" & Dgv_Books.CurrentRow.Cells(0).Value & "';", dbConnection)
-            Dim DtSet As New DataSet
-            Dgv.Fill(DtSet)
-            Dgv_BookCopies.DataSource = DtSet.Tables(0).DefaultView
+            Dim dataAdapter As New OleDbDataAdapter("Select Accession_Number As [Accession Number] From BookCopies Where Book_Code = '" & Dgv_Books.CurrentRow.Cells(0).Value & "';", dbConnection)
+            Dim dataSet As New DataSet
+            dataAdapter.Fill(dataSet)
+            Dgv_BookCopies.DataSource = dataSet.Tables(0).DefaultView
         Catch ex As NullReferenceException
         End Try
     End Sub
     'Filling Up DgvAuthors
     Private Sub DgvAuthors()
         Try
-            Dim Dgv As New OleDbDataAdapter("SELECT Author.Author_ID AS ID, [Author.LastName] +' , '+ [Author.FirstName] AS Name FROM Author Inner Join BookAuthor On Author.Author_ID = BookAuthor.Author_ID Where BookAuthor.Book_Code = '" & Dgv_Books.CurrentRow.Cells(0).Value & "';", dbConnection)
-            Dim DtSet As New DataSet
-            Dgv.Fill(DtSet)
-            Dgv_Authors.DataSource = DtSet.Tables(0).DefaultView
+            Dim dataAdapter As New OleDbDataAdapter("SELECT Author.Author_ID AS ID, [Author.LastName] +' , '+ [Author.FirstName] AS Name FROM Author Inner Join BookAuthor On Author.Author_ID = BookAuthor.Author_ID Where BookAuthor.Book_Code = '" & Dgv_Books.CurrentRow.Cells(0).Value & "';", dbConnection)
+            Dim dataSet As New DataSet
+            dataAdapter.Fill(dataSet)
+            Dgv_Authors.DataSource = dataSet.Tables(0).DefaultView
         Catch ex As NullReferenceException
         End Try
     End Sub
     'Current Authors
     Public Sub DgvAuthorsE()
-        Dim Dgv As New OleDbDataAdapter("SELECT Author.Author_ID AS ID, [Author.LastName] +' , '+ [Author.FirstName] AS Name FROM Author Inner Join BookAuthor On Author.Author_ID = BookAuthor.Author_ID Where BookAuthor.Book_Code = '" & Tb_BC.Text & "';", dbConnection)
-        Dim DtSet As New DataSet
-        Dgv.Fill(DtSet)
-        Dgv_Authors.DataSource = DtSet.Tables(0).DefaultView
+        Dim dataAdapter As New OleDbDataAdapter("SELECT Author.Author_ID AS ID, [Author.LastName] +' , '+ [Author.FirstName] AS Name FROM Author Inner Join BookAuthor On Author.Author_ID = BookAuthor.Author_ID Where BookAuthor.Book_Code = '" & Tb_BC.Text & "';", dbConnection)
+        Dim dataSet As New DataSet
+        dataAdapter.Fill(dataSet)
+        Dgv_Authors.DataSource = dataSet.Tables(0).DefaultView
     End Sub
     'Selection Fill to TxtBox
     Private Sub FillSelect()
         Try
-            Dim Dgv As New OleDbDataAdapter("Select * From Book Where Book_Code = '" & Dgv_Books.CurrentRow.Cells(0).Value & "';", dbConnection)
-            Dim DtSet As New DataSet
-            Dgv.Fill(DtSet)
-            If DtSet.Tables(0).DefaultView.Count > 0 Then
-                Tb_BC.Text = DtSet.Tables(0).DefaultView.Item(0).Item(0)
-                Tb_Ttl.Text = DtSet.Tables(0).DefaultView.Item(0).Item(1)
-                Tb_Pb.Text = DtSet.Tables(0).DefaultView.Item(0).Item(2)
-                Dtp_DtPb.Text = DtSet.Tables(0).DefaultView.Item(0).Item(3)
+            Dim dataAdapter As New OleDbDataAdapter("Select * From Book Where Book_Code = '" & Dgv_Books.CurrentRow.Cells(0).Value & "';", dbConnection)
+            Dim dataSet As New DataSet
+            dataAdapter.Fill(dataSet)
+            If dataSet.Tables(0).DefaultView.Count > 0 Then
+                Tb_BC.Text = dataSet.Tables(0).DefaultView.Item(0).Item(0)
+                Tb_Ttl.Text = dataSet.Tables(0).DefaultView.Item(0).Item(1)
+                Tb_Pb.Text = dataSet.Tables(0).DefaultView.Item(0).Item(2)
+                Dtp_DtPb.Text = dataSet.Tables(0).DefaultView.Item(0).Item(3)
             End If
         Catch ex As NullReferenceException
 
@@ -54,10 +54,10 @@ Public Class Frm_MngBooks
     End Sub
     'Search Box
     Private Sub DgvSrch()
-        Dim Dgv As New OleDbDataAdapter("Select Book_Code As [Book Code] , Book_Title As [Book Title] From Book Where Book_Code Like '%" & Tb_Srch.Text & "%' or Book_Title Like '%" & Tb_Srch.Text & "%';", dbConnection)
-        Dim DtSet As New DataSet
-        Dgv.Fill(DtSet)
-        Dgv_Books.DataSource = DtSet.Tables(0).DefaultView
+        Dim dataAdapter As New OleDbDataAdapter("Select Book_Code As [Book Code] , Book_Title As [Book Title] From Book Where Book_Code Like '%" & Tb_Srch.Text & "%' or Book_Title Like '%" & Tb_Srch.Text & "%';", dbConnection)
+        Dim dataSet As New DataSet
+        dataAdapter.Fill(dataSet)
+        Dgv_Books.DataSource = dataSet.Tables(0).DefaultView
     End Sub
     'Selection Changed DgvBooks
     Private Sub Dgv_Books_SelectionChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Dgv_Books.SelectionChanged
@@ -147,9 +147,9 @@ Public Class Frm_MngBooks
     End Sub
     'Cancel
     Private Sub Bttn_Cncl_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Bttn_Cncl.Click
-        Dim Dlte As New OleDbCommand("Delete From BookAuthor Where Book_Code = '" & Tb_BC.Text & "';", dbConnection)
+        Dim cmdDeleteBookAuthor As New OleDbCommand("Delete From BookAuthor Where Book_Code = '" & Tb_BC.Text & "';", dbConnection)
         dbConnection.Open()
-        Dlte.ExecuteNonQuery()
+        cmdDeleteBookAuthor.ExecuteNonQuery()
         dbConnection.Close()
         Bttn_Add.Text = "Add Book"
         Bttn_Edt.Text = "Edit Book"
@@ -222,12 +222,12 @@ Public Class Frm_MngBooks
         Dim accession As String = ""
         Dim avail As String = ""
 
-        Dim Dgv As New OleDbDataAdapter("SELECT *  FROM BookCopies WHERE Accession_Number = '" & Me.Dgv_BookCopies.CurrentRow.Cells(0).Value & "';", dbConnection)
-        Dim Dtset As New DataSet
-        Dgv.Fill(Dtset)
-        If Dtset.Tables(0).DefaultView.Count > 0 Then
-            accession = Dtset.Tables(0).DefaultView.Item(0).Item(0)
-            avail = Dtset.Tables(0).DefaultView.Item(0).Item(2)
+        Dim dataAdapter As New OleDbDataAdapter("SELECT *  FROM BookCopies WHERE Accession_Number = '" & Me.Dgv_BookCopies.CurrentRow.Cells(0).Value & "';", dbConnection)
+        Dim dataSet As New DataSet
+        dataAdapter.Fill(dataSet)
+        If dataSet.Tables(0).DefaultView.Count > 0 Then
+            accession = dataSet.Tables(0).DefaultView.Item(0).Item(0)
+            avail = dataSet.Tables(0).DefaultView.Item(0).Item(2)
         End If
 
         If (avail = "false" Or avail = "False") Then
@@ -267,9 +267,9 @@ Public Class Frm_MngBooks
 
 
         Try
-            Dim Dgv As New OleDbDataAdapter("SELECT *  FROM BookCopies WHERE Accession_Number = '" & Me.Dgv_BookCopies.CurrentRow.Cells(0).Value & "';", dbConnection)
+            Dim dataAdapter As New OleDbDataAdapter("SELECT *  FROM BookCopies WHERE Accession_Number = '" & Me.Dgv_BookCopies.CurrentRow.Cells(0).Value & "';", dbConnection)
             Dim Dtset As New DataSet
-            Dgv.Fill(Dtset)
+            dataAdapter.Fill(Dtset)
             If Dtset.Tables(0).DefaultView.Count > 0 Then
                 accession = Dtset.Tables(0).DefaultView.Item(0).Item(0)
                 avail = Dtset.Tables(0).DefaultView.Item(0).Item(2)
@@ -278,10 +278,7 @@ Public Class Frm_MngBooks
         Catch ex As Exception
 
         End Try
-       
 
-
-       
         ctr = Me.Dgv_BookCopies.RowCount.ToString()
 
         If ctr = 0 Then
@@ -313,11 +310,6 @@ Public Class Frm_MngBooks
             DgvAuthors()
 
             'code end
-
-
-
-
-
         ElseIf (avail = "false" Or avail = "False") Then
             MessageBox.Show("You cannot delete the Book. One or more copy of Book has/have been borrowed.")
 
