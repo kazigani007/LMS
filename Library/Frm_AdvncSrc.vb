@@ -1,15 +1,20 @@
 ﻿Imports System.Data.OleDb
 Public Class Frm_AdvncSrc
-    Private db As New OleDbConnection(Connect)
+    Private dbConnection As New OleDbConnection(Connect)
 
     Private Sub DgvReader()
-        Dim Dgv As New OleDbDataAdapter("Select Reader_ID as [Reader ID], ID_Number as [ID Number], [FirstName]+' '+[LastName] as Name , Sex , Type From Reader Where Reader_ID Like '%" & Tb_Srch.Text & "%' or LastName Like '%" & Tb_Srch.Text & "%' ", db)
+        Dim Dgv As New OleDbDataAdapter("Select Reader_ID as [Reader ID], ID_Number as [ID Number], 
+           [FirstName]+' '+[LastName] as Name , Sex , Type From Reader Where Reader_ID 
+           Like '%" & Tb_Srch.Text & "%' or LastName Like '%" & Tb_Srch.Text & "%' ", dbConnection)
         Dim DtSet As New DataSet
         Dgv.Fill(DtSet)
         Dgv_AdvncSrch.DataSource = DtSet.Tables(0).DefaultView
     End Sub
+
     Private Sub DgvReaderFill()
-        Dim Dgv As New OleDbDataAdapter("Select Reader_ID as [Reader ID], ID_Number as [ID Number], [FirstName]+' '+[LastName] as Name , Sex , Type From Reader Where Reader_ID = '" & Dgv_AdvncSrch.CurrentRow.Cells(0).Value & "' ", db)
+        Dim Dgv As New OleDbDataAdapter("Select Reader_ID as [Reader ID], ID_Number as [ID Number], 
+            [FirstName]+' '+[LastName] as Name , Sex , Type From Reader 
+            Where Reader_ID = '" & Dgv_AdvncSrch.CurrentRow.Cells(0).Value & "' ", dbConnection)
         Dim DtSet As New DataSet
         Dgv.Fill(DtSet)
         If DtSet.Tables(0).DefaultView.Count Then
@@ -19,7 +24,9 @@ Public Class Frm_AdvncSrc
         End If
     End Sub
     Private Sub DgvReaderFill2()
-        Dim Dgv As New OleDbDataAdapter("Select Reader_ID as [Reader ID], ID_Number as [ID Number], [FirstName]+' '+[LastName] as Name , Sex , Type From Reader Where Reader_ID = '" & Dgv_AdvncSrch.CurrentRow.Cells(0).Value & "' ", db)
+        Dim Dgv As New OleDbDataAdapter("Select Reader_ID as [Reader ID], ID_Number as [ID Number], 
+            [FirstName]+' '+[LastName] as Name , Sex , Type From Reader 
+            Where Reader_ID = '" & Dgv_AdvncSrch.CurrentRow.Cells(0).Value & "' ", dbConnection)
         Dim DtSet As New DataSet
         Dgv.Fill(DtSet)
         If DtSet.Tables(0).DefaultView.Count Then
@@ -30,14 +37,21 @@ Public Class Frm_AdvncSrc
     End Sub
 
     Private Sub DgvBooks()
-        Dim Dgv As New OleDbDataAdapter("Select BookCopies.Accession_Number As [Accession Number], Book.Book_Code as [Book Code] , Book.Book_Title as Title , Book.Book_Publisher as Publisher , BookCopies.Available From Book Inner Join BookCopies On Book.Book_Code = BookCopies.Book_Code Where BookCopies.Accession_Number Like '%" & Tb_Srch.Text & "%' or Book.Book_Title Like '%" & Tb_Srch.Text & "%' ", db)
+        Dim Dgv As New OleDbDataAdapter("Select BookCopies.Accession_Number As [Accession Number], 
+            Book.Book_Code as [Book Code] , Book.Book_Title as Title , Book.Book_Publisher as Publisher , 
+            BookCopies.Available From Book Inner Join BookCopies On Book.Book_Code = BookCopies.Book_Code 
+            Where BookCopies.Accession_Number Like '%" & Tb_Srch.Text & "%' or Book.Book_Title 
+            Like '%" & Tb_Srch.Text & "%' ", dbConnection)
         Dim DtSet As New DataSet
         Dgv.Fill(DtSet)
         Dgv_AdvncSrch.DataSource = DtSet.Tables(0).DefaultView
     End Sub
 
     Private Sub DgvBooksFill()
-        Dim Dgv As New OleDbDataAdapter("Select BookCopies.Accession_Number As [Accession Number], Book.Book_Code as [Book Code] , Book.Book_Title as Title , Book.Book_Publisher as Publisher , BookCopies.Available From Book Inner Join BookCopies On Book.Book_Code = BookCopies.Book_Code Where BookCopies.Accession_Number ='" & Dgv_AdvncSrch.CurrentRow.Cells(0).Value & "' ", db)
+        Dim Dgv As New OleDbDataAdapter("Select BookCopies.Accession_Number As [Accession Number], 
+            Book.Book_Code as [Book Code] , Book.Book_Title as Title , Book.Book_Publisher as Publisher , 
+            BookCopies.Available From Book Inner Join BookCopies On Book.Book_Code = BookCopies.Book_Code 
+            Where BookCopies.Accession_Number ='" & Dgv_AdvncSrch.CurrentRow.Cells(0).Value & "' ", dbConnection)
         Dim DtSet As New DataSet
         Dgv.Fill(DtSet)
         If DtSet.Tables(0).DefaultView.Count Then
@@ -96,5 +110,4 @@ Public Class Frm_AdvncSrc
         End If
         Me.Close()
     End Sub
-
 End Class
