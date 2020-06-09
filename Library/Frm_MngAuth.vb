@@ -1,10 +1,12 @@
 ﻿Imports System.Data.OleDb
 Public Class Frm_MngAuth
     'CREATING CONNECTION
-    Private db As New OleDbConnection(Connect)
+    Private dbConnection As New OleDbConnection(Connect)
     'FILLING UP DATAGRIDVIEW NAME DgvUnAssigned()
     Private Sub DgvUnAssigned()
-        Dim Dgv As New OleDbDataAdapter("SELECT Author_ID as ID , [LastName] +' , '+ [FirstName] as Name FROM Author Where LastName Like '%" & Tb_Srch.Text & "%' or Author_ID Like '%" & Tb_Srch.Text & "%' ; ", db)
+        Dim Dgv As New OleDbDataAdapter("SELECT Author_ID as ID , [LastName] +' , '+ [FirstName] as Name 
+            FROM Author Where LastName Like '%" & Tb_Srch.Text & "%' or Author_ID 
+            Like '%" & Tb_Srch.Text & "%' ; ", dbConnection)
         Dim DtSet As New DataSet
         Dgv.Fill(DtSet)
         Dgv_Unassigned.DataSource = DtSet.Tables(0).DefaultView
@@ -12,9 +14,9 @@ Public Class Frm_MngAuth
     'DATAGRIDVIEW NAME DgvUnAssigned() SELECTING
     Private Sub DgvUnAssigned_Select()
         Try
-            Dim Dgv As New OleDbDataAdapter("SELECT * FROM Author WHERE Author_ID = '" & Dgv_Unassigned.CurrentRow.Cells(0).Value & "'; ", db)
+            Dim dataAdapter As New OleDbDataAdapter("SELECT * FROM Author WHERE Author_ID = '" & Dgv_Unassigned.CurrentRow.Cells(0).Value & "'; ", dbConnection)
             Dim DtSet As New DataSet
-            Dgv.Fill(DtSet)
+            dataAdapter.Fill(DtSet)
             If DtSet.Tables(0).DefaultView.Count > 0 Then
                 Tb_AID.Text = DtSet.Tables(0).DefaultView.Item(0).Item(0)
                 Tb_FN.Text = DtSet.Tables(0).DefaultView.Item(0).Item(1)
@@ -25,9 +27,9 @@ Public Class Frm_MngAuth
     End Sub
     'FILLING UP DATAGRIDVIEW NAME DgvAssigned()
     Private Sub DgvAssigned()
-        Dim Dgv As New OleDbDataAdapter("SELECT Author.Author_ID As ID , [Author.LastName] +' , '+ [Author.FirstName] AS Name From Author INNER JOIN BookAuthor ON Author.Author_ID = BookAuthor.Author_ID WHERE BookAuthor.Book_Code = '" & Frm_MngBooks.Tb_BC.Text & "' Order BY LastName ASC", db)
+        Dim dataAdapter As New OleDbDataAdapter("SELECT Author.Author_ID As ID , [Author.LastName] +' , '+ [Author.FirstName] AS Name From Author INNER JOIN BookAuthor ON Author.Author_ID = BookAuthor.Author_ID WHERE BookAuthor.Book_Code = '" & Frm_MngBooks.Tb_BC.Text & "' Order BY LastName ASC", dbConnection)
         Dim DtSet As New DataSet
-        Dgv.Fill(DtSet)
+        dataAdapter.Fill(DtSet)
         Dgv_Assigned.DataSource = DtSet.Tables(0).DefaultView
     End Sub
     'FORM LOAD
@@ -68,10 +70,10 @@ Public Class Frm_MngAuth
                     Exit Sub
                 End If
 
-                Dim Insrt As New OleDbCommand("INSERT INTO Author Values('" & Tb_AID.Text & "','" & Tb_FN.Text & "','" & Tb_LN.Text & "');", db)
-                db.Open()
+                Dim Insrt As New OleDbCommand("INSERT INTO Author Values('" & Tb_AID.Text & "','" & Tb_FN.Text & "','" & Tb_LN.Text & "');", dbConnection)
+                dbConnection.Open()
                 Insrt.ExecuteNonQuery()
-                db.Close()
+                dbConnection.Close()
 
                 Bttn_Add.Text = "Add"
                 Bttn_Cncl.Enabled = False
@@ -83,7 +85,7 @@ Public Class Frm_MngAuth
                 Dgv_Unassigned.Enabled = True
 
             Catch ex As OleDb.OleDbException
-                db.Close()
+                dbConnection.Close()
                 MessageBox.Show("The Author is Already Exist!" & vbNewLine & "Please Check For Author I.D.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
             End Try
             DgvUnAssigned()
@@ -115,10 +117,11 @@ Public Class Frm_MngAuth
                 Exit Sub
             End If
 
-            Dim Updte As New OleDbCommand("UPDATE Author Set Author_ID = '" & Tb_AID.Text & "' , FirstName = '" & Tb_FN.Text & "', LastName = '" & Tb_LN.Text & "' Where Author_ID = '" & Dgv_Unassigned.CurrentRow.Cells(0).Value & "';", db)
-            db.Open()
+            Dim Updte As New OleDbCommand("UPDATE Author Set Author_ID = '" & Tb_AID.Text & "' , 
+                FirstName = '" & Tb_FN.Text & "', LastName = '" & Tb_LN.Text & "' Where Author_ID = '" & Dgv_Unassigned.CurrentRow.Cells(0).Value & "';", dbConnection)
+            dbConnection.Open()
             Updte.ExecuteNonQuery()
-            db.Close()
+            dbConnection.Close()
 
             Bttn_Edt.Text = "Edit"
             Bttn_Cncl.Enabled = False
@@ -161,12 +164,12 @@ Public Class Frm_MngAuth
         If MessageBox.Show("The Selected Author Will Be Deleted. " & vbNewLine & "Do You Want To Proceed?", "Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = Windows.Forms.DialogResult.No Then
             Exit Sub
         End If
-        Dim Dlt1 As New OleDbCommand("DELETE FROM Author Where Author_ID = '" & Dgv_Unassigned.CurrentRow.Cells(0).Value & "'", db)
-        Dim Dlt2 As New OleDbCommand("DELETE FROM BookAuthor Where Author_ID = '" & Dgv_Unassigned.CurrentRow.Cells(0).Value & "'", db)
-        db.Open()
+        Dim Dlt1 As New OleDbCommand("DELETE FROM Author Where Author_ID = '" & Dgv_Unassigned.CurrentRow.Cells(0).Value & "'", dbConnection)
+        Dim Dlt2 As New OleDbCommand("DELETE FROM BookAuthor Where Author_ID = '" & Dgv_Unassigned.CurrentRow.Cells(0).Value & "'", dbConnection)
+        dbConnection.Open()
         Dlt1.ExecuteNonQuery()
         Dlt2.ExecuteNonQuery()
-        db.Close()
+        dbConnection.Close()
         DgvUnAssigned()
         DgvAssigned()
     End Sub
@@ -176,14 +179,14 @@ Public Class Frm_MngAuth
             Exit Sub
         Else
             Try
-                Dim insrtAuthor As New OleDbCommand("INSERT INTO BookAuthor(Book_Code,Author_ID) Values('" & Frm_MngBooks.Tb_BC.Text & "','" & Dgv_Unassigned.CurrentRow.Cells(0).Value & "');", db)
-                db.Open()
+                Dim insrtAuthor As New OleDbCommand("INSERT INTO BookAuthor(Book_Code,Author_ID) Values('" & Frm_MngBooks.Tb_BC.Text & "','" & Dgv_Unassigned.CurrentRow.Cells(0).Value & "');", dbConnection)
+                dbConnection.Open()
                 insrtAuthor.ExecuteNonQuery()
-                db.Close()
+                dbConnection.Close()
                 DgvUnAssigned()
                 DgvAssigned()
             Catch ex As OleDb.OleDbException
-                db.Close()
+                dbConnection.Close()
             End Try
         End If
     End Sub
@@ -193,10 +196,10 @@ Public Class Frm_MngAuth
             Exit Sub
         Else
 
-            Dim Dlt1 As New OleDbCommand("DELETE FROM BookAuthor Where Author_ID = '" & Dgv_Assigned.CurrentRow.Cells(0).Value & "'", db)
-            db.Open()
+            Dim Dlt1 As New OleDbCommand("DELETE FROM BookAuthor Where Author_ID = '" & Dgv_Assigned.CurrentRow.Cells(0).Value & "'", dbConnection)
+            dbConnection.Open()
             Dlt1.ExecuteNonQuery()
-            db.Close()
+            dbConnection.Close()
             DgvUnAssigned()
             DgvAssigned()
         End If
