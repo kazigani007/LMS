@@ -3,62 +3,62 @@ Public Class Frm_AdvncSrc
     Private dbConnection As New OleDbConnection(Connect)
 
     Private Sub DgvReader()
-        Dim Dgv As New OleDbDataAdapter("Select Reader_ID as [Reader ID], ID_Number as [ID Number], 
+        Dim dataAdapter As New OleDbDataAdapter("Select Reader_ID as [Reader ID], ID_Number as [ID Number], 
            [FirstName]+' '+[LastName] as Name , Sex , Type From Reader Where Reader_ID 
            Like '%" & Tb_Srch.Text & "%' or LastName Like '%" & Tb_Srch.Text & "%' ", dbConnection)
-        Dim DtSet As New DataSet
-        Dgv.Fill(DtSet)
-        Dgv_AdvncSrch.DataSource = DtSet.Tables(0).DefaultView
+        Dim dataSet As New DataSet
+        dataAdapter.Fill(dataSet)
+        Dgv_AdvncSrch.DataSource = dataSet.Tables(0).DefaultView
     End Sub
 
     Private Sub DgvReaderFill()
-        Dim Dgv As New OleDbDataAdapter("Select Reader_ID as [Reader ID], ID_Number as [ID Number], 
+        Dim dataAdapter As New OleDbDataAdapter("Select Reader_ID as [Reader ID], ID_Number as [ID Number], 
             [FirstName]+' '+[LastName] as Name , Sex , Type From Reader 
             Where Reader_ID = '" & Dgv_AdvncSrch.CurrentRow.Cells(0).Value & "' ", dbConnection)
-        Dim DtSet As New DataSet
-        Dgv.Fill(DtSet)
-        If DtSet.Tables(0).DefaultView.Count Then
-            Frm_Main.Cb_SrchReaders.Text = DtSet.Tables(0).DefaultView.Item(0).Item(0)
-            Frm_Main.Tb_Name.Text = DtSet.Tables(0).DefaultView.Item(0).Item(2)
-            Frm_Main.Tb_Type.Text = DtSet.Tables(0).DefaultView.Item(0).Item(4)
+        Dim dataSet As New DataSet
+        dataAdapter.Fill(dataSet)
+        If dataSet.Tables(0).DefaultView.Count Then
+            Frm_Main.Cb_SrchReaders.Text = dataSet.Tables(0).DefaultView.Item(0).Item(0)
+            Frm_Main.Tb_Name.Text = dataSet.Tables(0).DefaultView.Item(0).Item(2)
+            Frm_Main.Tb_Type.Text = dataSet.Tables(0).DefaultView.Item(0).Item(4)
         End If
     End Sub
     Private Sub DgvReaderFill2()
-        Dim Dgv As New OleDbDataAdapter("Select Reader_ID as [Reader ID], ID_Number as [ID Number], 
+        Dim dataAdapter As New OleDbDataAdapter("Select Reader_ID as [Reader ID], ID_Number as [ID Number], 
             [FirstName]+' '+[LastName] as Name , Sex , Type From Reader 
             Where Reader_ID = '" & Dgv_AdvncSrch.CurrentRow.Cells(0).Value & "' ", dbConnection)
-        Dim DtSet As New DataSet
-        Dgv.Fill(DtSet)
-        If DtSet.Tables(0).DefaultView.Count Then
-            Frm_Main.Tb_RderID.Text = DtSet.Tables(0).DefaultView.Item(0).Item(0)
-            Frm_Main.Tb_NameRB.Text = DtSet.Tables(0).DefaultView.Item(0).Item(2)
-            Frm_Main.Tb_TypeRB.Text = DtSet.Tables(0).DefaultView.Item(0).Item(4)
+        Dim dataSet As New DataSet
+        dataAdapter.Fill(dataSet)
+        If dataSet.Tables(0).DefaultView.Count Then
+            Frm_Main.Tb_RderID.Text = dataSet.Tables(0).DefaultView.Item(0).Item(0)
+            Frm_Main.Tb_NameRB.Text = dataSet.Tables(0).DefaultView.Item(0).Item(2)
+            Frm_Main.Tb_TypeRB.Text = dataSet.Tables(0).DefaultView.Item(0).Item(4)
         End If
     End Sub
 
     Private Sub DgvBooks()
-        Dim Dgv As New OleDbDataAdapter("Select BookCopies.Accession_Number As [Accession Number], 
+        Dim dataAdapter As New OleDbDataAdapter("Select BookCopies.Accession_Number As [Accession Number], 
             Book.Book_Code as [Book Code] , Book.Book_Title as Title , Book.Book_Publisher as Publisher , 
             BookCopies.Available From Book Inner Join BookCopies On Book.Book_Code = BookCopies.Book_Code 
             Where BookCopies.Accession_Number Like '%" & Tb_Srch.Text & "%' or Book.Book_Title 
             Like '%" & Tb_Srch.Text & "%' ", dbConnection)
-        Dim DtSet As New DataSet
-        Dgv.Fill(DtSet)
-        Dgv_AdvncSrch.DataSource = DtSet.Tables(0).DefaultView
+        Dim dataSet As New DataSet
+        dataAdapter.Fill(dataSet)
+        Dgv_AdvncSrch.DataSource = dataSet.Tables(0).DefaultView
     End Sub
 
     Private Sub DgvBooksFill()
-        Dim Dgv As New OleDbDataAdapter("Select BookCopies.Accession_Number As [Accession Number], 
+        Dim dataAdapter As New OleDbDataAdapter("Select BookCopies.Accession_Number As [Accession Number], 
             Book.Book_Code as [Book Code] , Book.Book_Title as Title , Book.Book_Publisher as Publisher , 
             BookCopies.Available From Book Inner Join BookCopies On Book.Book_Code = BookCopies.Book_Code 
             Where BookCopies.Accession_Number ='" & Dgv_AdvncSrch.CurrentRow.Cells(0).Value & "' ", dbConnection)
-        Dim DtSet As New DataSet
-        Dgv.Fill(DtSet)
-        If DtSet.Tables(0).DefaultView.Count Then
-            Frm_Main.Cb_SrchAcc.Text = DtSet.Tables(0).DefaultView.Item(0).Item(0)
-            Frm_Main.Tb_Title.Text = DtSet.Tables(0).DefaultView.Item(0).Item(2)
-            Frm_Main.Tb_Pub.Text = DtSet.Tables(0).DefaultView.Item(0).Item(3)
-            If DtSet.Tables(0).DefaultView.Item(0).Item(4) = "True" Then
+        Dim dataSet As New DataSet
+        dataAdapter.Fill(dataSet)
+        If dataSet.Tables(0).DefaultView.Count Then
+            Frm_Main.Cb_SrchAcc.Text = dataSet.Tables(0).DefaultView.Item(0).Item(0)
+            Frm_Main.Tb_Title.Text = dataSet.Tables(0).DefaultView.Item(0).Item(2)
+            Frm_Main.Tb_Pub.Text = dataSet.Tables(0).DefaultView.Item(0).Item(3)
+            If dataSet.Tables(0).DefaultView.Item(0).Item(4) = "True" Then
                 Frm_Main.Tb_Avail.Text = "Yes"
             End If
 

@@ -158,7 +158,7 @@ Partial Class Frm_Usr
         '
         'TabPage1
         '
-        Me.TabPage1.BackColor = System.Drawing.Color.IndianRed
+        Me.TabPage1.BackColor = System.Drawing.Color.Linen
         Me.TabPage1.Controls.Add(Me.Bttn_Cnfrm2)
         Me.TabPage1.Controls.Add(Me.Lbl_CPPP)
         Me.TabPage1.Controls.Add(Me.Tb_CPP)
@@ -175,10 +175,10 @@ Partial Class Frm_Usr
         '
         'Bttn_Cnfrm2
         '
-        Me.Bttn_Cnfrm2.BackColor = System.Drawing.Color.LightCoral
+        Me.Bttn_Cnfrm2.BackColor = System.Drawing.Color.Bisque
         Me.Bttn_Cnfrm2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Bttn_Cnfrm2.ForeColor = System.Drawing.Color.Black
-        Me.Bttn_Cnfrm2.Location = New System.Drawing.Point(135, 222)
+        Me.Bttn_Cnfrm2.Location = New System.Drawing.Point(223, 175)
         Me.Bttn_Cnfrm2.Name = "Bttn_Cnfrm2"
         Me.Bttn_Cnfrm2.Size = New System.Drawing.Size(75, 23)
         Me.Bttn_Cnfrm2.TabIndex = 4
@@ -188,7 +188,7 @@ Partial Class Frm_Usr
         'Lbl_CPPP
         '
         Me.Lbl_CPPP.AutoSize = True
-        Me.Lbl_CPPP.BackColor = System.Drawing.Color.LightCoral
+        Me.Lbl_CPPP.BackColor = System.Drawing.Color.Bisque
         Me.Lbl_CPPP.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Lbl_CPPP.ForeColor = System.Drawing.Color.Black
         Me.Lbl_CPPP.Location = New System.Drawing.Point(30, 134)
@@ -208,7 +208,7 @@ Partial Class Frm_Usr
         'Lbl_NP
         '
         Me.Lbl_NP.AutoSize = True
-        Me.Lbl_NP.BackColor = System.Drawing.Color.LightCoral
+        Me.Lbl_NP.BackColor = System.Drawing.Color.Bisque
         Me.Lbl_NP.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Lbl_NP.ForeColor = System.Drawing.Color.Black
         Me.Lbl_NP.Location = New System.Drawing.Point(38, 86)
@@ -228,7 +228,7 @@ Partial Class Frm_Usr
         'Lbl_CPP
         '
         Me.Lbl_CPP.AutoSize = True
-        Me.Lbl_CPP.BackColor = System.Drawing.Color.LightCoral
+        Me.Lbl_CPP.BackColor = System.Drawing.Color.Bisque
         Me.Lbl_CPP.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Lbl_CPP.ForeColor = System.Drawing.Color.Black
         Me.Lbl_CPP.Location = New System.Drawing.Point(28, 40)
@@ -247,7 +247,7 @@ Partial Class Frm_Usr
         '
         'TabPage3
         '
-        Me.TabPage3.BackColor = System.Drawing.Color.IndianRed
+        Me.TabPage3.BackColor = System.Drawing.Color.Linen
         Me.TabPage3.Controls.Add(Me.Bttn_Cnfrm3)
         Me.TabPage3.Controls.Add(Me.Tb_CPPD)
         Me.TabPage3.Controls.Add(Me.Lbl_CPPD)
@@ -262,10 +262,10 @@ Partial Class Frm_Usr
         '
         'Bttn_Cnfrm3
         '
-        Me.Bttn_Cnfrm3.BackColor = System.Drawing.Color.LightCoral
+        Me.Bttn_Cnfrm3.BackColor = System.Drawing.Color.Bisque
         Me.Bttn_Cnfrm3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Bttn_Cnfrm3.ForeColor = System.Drawing.Color.Black
-        Me.Bttn_Cnfrm3.Location = New System.Drawing.Point(133, 220)
+        Me.Bttn_Cnfrm3.Location = New System.Drawing.Point(236, 178)
         Me.Bttn_Cnfrm3.Name = "Bttn_Cnfrm3"
         Me.Bttn_Cnfrm3.Size = New System.Drawing.Size(75, 23)
         Me.Bttn_Cnfrm3.TabIndex = 3
@@ -283,7 +283,7 @@ Partial Class Frm_Usr
         'Lbl_CPPD
         '
         Me.Lbl_CPPD.AutoSize = True
-        Me.Lbl_CPPD.BackColor = System.Drawing.Color.LightCoral
+        Me.Lbl_CPPD.BackColor = System.Drawing.Color.Bisque
         Me.Lbl_CPPD.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Lbl_CPPD.ForeColor = System.Drawing.Color.Black
         Me.Lbl_CPPD.Location = New System.Drawing.Point(34, 41)
@@ -302,7 +302,7 @@ Partial Class Frm_Usr
         'Lbl_PPD
         '
         Me.Lbl_PPD.AutoSize = True
-        Me.Lbl_PPD.BackColor = System.Drawing.Color.LightCoral
+        Me.Lbl_PPD.BackColor = System.Drawing.Color.Bisque
         Me.Lbl_PPD.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Lbl_PPD.ForeColor = System.Drawing.Color.Black
         Me.Lbl_PPD.Location = New System.Drawing.Point(52, 118)

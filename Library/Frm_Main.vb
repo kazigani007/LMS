@@ -66,11 +66,11 @@ Public Class Frm_Main
     'FillTextBoxesSearchReaders
     Private Sub Cb_SrchReaders_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Cb_SrchReaders.SelectedIndexChanged
         Dim dataAdapterBookCopies As New OleDbDataAdapter("SELECT [FirstName] + ' ' + [LastName] as Name , Type  FROM Reader Where Reader_ID = '" & Cb_SrchReaders.Text & "';", dbConnection)
-        Dim Dtset As New DataSet
-        dataAdapterBookCopies.Fill(Dtset)
-        If Dtset.Tables(0).DefaultView.Count > 0 Then
-            Tb_Name.Text = Dtset.Tables(0).DefaultView.Item(0).Item(0)
-            Tb_Type.Text = Dtset.Tables(0).DefaultView.Item(0).Item(1)
+        Dim dataSet As New DataSet
+        dataAdapterBookCopies.Fill(dataSet)
+        If dataSet.Tables(0).DefaultView.Count > 0 Then
+            Tb_Name.Text = dataSet.Tables(0).DefaultView.Item(0).Item(0)
+            Tb_Type.Text = dataSet.Tables(0).DefaultView.Item(0).Item(1)
         End If
         ErrPrvder.Clear()
         DgvBrrwdBooks()
@@ -167,19 +167,18 @@ Public Class Frm_Main
     End Sub
     'Exit Application
     Private Sub TspB_Exit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TspB_Exit.Click
-       
-            If MessageBox.Show("Do You Want To Exit Application?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1) = Windows.Forms.DialogResult.No Then
-                Exit Sub
-            End If
-        Me.Close()
 
-       
-        
+        If MessageBox.Show("Do You Want To Exit Application?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1) = Windows.Forms.DialogResult.No Then
+            Exit Sub
+        End If
+        Me.Close()
     End Sub
+
     'Borrow History Fill
     Private Sub Tp_BrrwHistory_Enter(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Tp_BrrwHistory.Enter
         DgvHistory()
     End Sub
+
     'fill textboxes ReaderRB
     Private Sub Cb_ReaderRB_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Dim dataAdapterReader As New OleDbDataAdapter("SELECT [Reader.FirstName] + ' ' + [Reader.LastName] as Name ,  Reader.Type,BorrowTransActions.Due_Date as [Due Date] FROM Reader Inner Join BorrowTransActions On BorrowTransActions.Reader_ID = Reader.Reader_ID  Where Reader.Reader_ID = '" & Tb_RderID.Text & "';", dbConnection)
@@ -191,17 +190,20 @@ Public Class Frm_Main
         End If
         dgvBrrwdBooks2()
     End Sub
+
     'AdvnceSrchRB
     Private Sub Bttn_AdnceSrchRB_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Bttn_AdnceSrchRB.Click
         AdvncSrch = 2
         Me.Enabled = False
         Frm_AdvncSrc.Visible = True
     End Sub
+
     'Enter Book Return
     Private Sub Tbc_BookTransactions_Enter(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Tbc_BookRetutn.Enter
         Tb_RderID.ResetText()
         Tb_RderID.ResetText()
     End Sub
+
     'Return
     Private Sub Bttn_Rturn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Bttn_Rturn.Click
         If Tb_Pnlty.Text <> "None" Then
